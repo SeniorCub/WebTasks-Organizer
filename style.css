@@ -1,0 +1,154 @@
+* {
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+     list-style: none;
+     /* border: 1px solid violet; */
+     /* overflow: hidden; */
+}
+body {
+     height: 100vh;
+     width: 100vw;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.navbar {
+     background-color: #333;
+     padding: 10px 20px;
+     color: #FEFEFA;
+}
+.brand {
+     font-size: 40px;
+     font-weight: 900;
+     color: #FFB200;
+     text-shadow: 2px 2px 5px #FEFEFA;
+}
+.nav-links {
+     float: right;
+     list-style: none;
+     display: flex;
+     justify-content: space-between;
+     place-items: center;
+     
+}
+ .links {
+     display: flex;
+     gap: 20px;
+ }
+ .nav-links li {
+     list-style: none;
+ }
+ 
+ .links a {
+     text-decoration: none;
+     color: #FEFEFA;
+     font-size: 20px;
+ }
+ 
+ .btns {
+     border: 2px solid #FEFEFA;
+     padding: 5px;
+     border-radius: 100%;
+}
+.hero {
+     background-color: #FFB200;
+     height: 100%;
+     padding: 50px;
+     place-items: center;
+     width: 100vw;
+}
+.part1 {
+     display: flex;
+     flex-direction: column;
+     place-items: center;
+     justify-content: center;
+     gap: 30px;
+}
+.catch {
+     font-size: 25px;
+     color: black;
+     text-align: center;
+}
+.button {
+     padding: 5px;
+     border: 2px solid black;
+     font-size: 20px;
+     border-radius: 10px;
+     background-color: #020F49;
+     color: #FEFEFA;
+     text-decoration: none;
+}
+.part2 {
+     background-color: #fefefa28;
+     /* border: #333 1px solid; */
+     border-radius: 20%;
+}
+.part2 img {
+     width: 100%;
+     height: 100%;  
+     object-fit: cover;
+}
+
+.details {
+     display: flex;
+     gap: 10px;
+     align-items: center;
+}
+
+.Uname {
+     font-weight: 200;
+     font-size: small;
+     color: #FEFEFA;
+}
+.btn-prim {
+     background-color: #FFB200;
+     color: #333;
+     border: 2px solid #FEFEFA;
+     box-shadow: 2px 2px 5px #FEFEFA;
+}
+i, .text-prim, label {
+     color: #FFB200;
+}
+.bg-ligh{
+     background-color: #FFB200;
+}
+
+
+ @media screen and (max-width: 768px) {
+     .hero {
+          position: relative;
+          display: block;
+          background: transparent;
+          background-color: #00000030;
+     }
+     .part1 {
+          width: 100%;
+          height: 100%;
+          margin: 0 auto;
+          display: flex;
+          justify-content: center;
+          z-index: 1;
+     }
+     .part2 {
+          width: 100%;
+          height: 100%;
+          position: absolute;
+          left: 0px;
+          top: 0px;
+          z-index: -1;
+          background-color: #FFB200;
+          border-radius: 0;
+     }
+     .part2 img {
+          object-fit: contain;
+     }
+}
+ 
+@media (max-width: 500px) {
+     *{
+          font-size: 20px!important;
+     }
+     .navbar{
+          width: 100%;
+     }
+     
+}
