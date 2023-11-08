@@ -1,0 +1,46 @@
+* {
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+}
+section {
+     display: flex;
+     flex-direction: column;
+     place-items: center;
+     gap: 30px;     
+     height: 100vh;
+}
+.input {
+     width: 100%;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     gap: 20px;
+     padding: 10px;
+     border-bottom: 5px solid #020F49;
+}
+h1 {
+     color: #FFB200;
+     border-bottom: 2px dashed #020F49;
+}
+.in {
+     padding: 5px;
+     border: 2px solid #020F49;
+     border-radius: 20px;
+}
+.select {
+     display: flex;
+     gap: 20px;
+}
+.convert {
+     padding: 10px;
+     width: max-content;
+     color: #FEFEFA;
+     background-color: #FFB200;
+     border: 2px solid #020F49;
+     border-radius: 20px;
+}
+.output {
+     padding: 30px;
+     text-align: center;
+}

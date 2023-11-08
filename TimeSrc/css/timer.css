@@ -1,0 +1,43 @@
+.timer {
+     margin: 50px auto;
+     max-width: 300px;
+     padding: 20px;
+     border: 1px solid #333;
+     border-radius: 5px;
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+     background-color: #FEFEFA;
+     text-align: center;
+ } 
+ #display {
+     font-size: 36px;
+     margin: 20px auto;
+     height: 60px;
+     border: 1px solid #333;
+     border-radius: 5px;
+ }
+ 
+ input[type="number"] {
+     width: 60px;
+     padding: 5px;
+     border: 1px solid #333;
+     border-radius: 5px;
+     color: #020F49;
+ }
+ label{
+     color: #333;
+ }
+ h4{
+     color: #FFB200;
+     font-size: 20px;
+     font-weight: 900;
+ }
+ h1{
+     color: #020F49;
+     font-size: 30px;
+     font-weight: 700;
+}
+.flex-wrap{
+     flex-direction: column;
+     justify-content: center!important;
+     gap: 10px;
+}

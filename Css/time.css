@@ -1,0 +1,20 @@
+.timee{
+     padding-top: 5%;
+    text-align: center;  text-align: center;
+    margin: 5% auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+#time {
+     font-weight: 900;
+     font-size: 60px;
+}
+#sec {
+     font-size: 25px;
+}
+#timee{
+     font-size: 50px;
+     font-weight: 400;
+}
