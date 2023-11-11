@@ -127,6 +127,15 @@
 
           <div class="input">
               <input type="text" id="taskInput" placeholder="Enter a task">
+              <span class="flex">
+               <b>Time to complete:</b>
+               in <input type="text" id="time-to-complete" placeholder="time">
+               <select name="min-sec" id="min-or-sec">
+                    <option value="hours">hours</option>
+                    <option value="minutes">minutes</option>
+                    <option value="seconds">seconds</option>
+               </select>
+              </span>
               <button type="button" onclick="addTask()">Add Task</button>
           </div>
 
@@ -150,6 +159,7 @@
      <script src="https://kit.fontawesome.com/2a49fbdbb8.js" crossorigin="anonymous"></script>
      <!-- Normal Script Link -->
      <script src="../Script/script.js"></script>
+     <script src="../Script/todo_reminder.js"></script>
      <!-- Validation Script Link -->
      <script src="../Script/validation.js"></script>
      <!-- ToDo List Script Link -->
