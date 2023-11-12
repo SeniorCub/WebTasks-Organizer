@@ -1,4 +1,4 @@
-window.addEventListener("load",()=>{
+(()=>{
     setInterval(async () => {
         let storage = localStorage
         let todoStore = storage.getItem("to-dos")
@@ -29,4 +29,4 @@ window.addEventListener("load",()=>{
             }
         }
     }, 10000);
-})
+})();
