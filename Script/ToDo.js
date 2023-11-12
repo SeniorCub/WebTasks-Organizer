@@ -19,7 +19,24 @@ if (taskText !== "") {
           taskList.removeChild(newTask);
      });
 
-     to_do_list.push({task:taskText,finishingtime:timeToComplete,min_or_sec:minOrSec})
+     let millisecondsFinish = 0
+
+     switch (minOrSec) {
+          case "hours":
+               millisecondsFinish = (timeToComplete * 60 * 60 * 1000) + Date.now()
+               break;
+          case "minutes":
+               millisecondsFinish = (timeToComplete * 60 * 1000) + Date.now()
+               break;
+          case "seconds":
+               millisecondsFinish = (timeToComplete * 1000) + Date.now()
+               break;
+          default:
+               millisecondsFinish = timeToComplete
+               break;
+     }
+
+     to_do_list.push({task:taskText,finishingtime:timeToComplete,min_or_sec:minOrSec,millisecondsFinish:millisecondsFinish})
 
      newTask.appendChild(deleteButton);
      taskList.appendChild(newTask);
