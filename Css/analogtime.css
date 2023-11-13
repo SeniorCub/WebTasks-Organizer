@@ -7,7 +7,10 @@
 }
 .clock-container{
     position: relative;
-    height: 300px;
+     position: absolute;
+     height: 300px;
+     top: 70px;
+     left: 40%;
 }
 .clock,.hands{
     border: solid thick black;
@@ -88,7 +91,7 @@
     height: 70px;
 }
 #hour-hand{
-    width: 5px;
+    width: 6px;
     height: 50px;
 }
 /* #second-hand-cont{}

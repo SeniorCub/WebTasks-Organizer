@@ -18,3 +18,18 @@
      font-size: 50px;
      font-weight: 400;
 }
+.ul{
+     margin-bottom: 0
+}
+.ull{
+     margin-top: 0;
+}
+.timee{
+     display: none;
+}
+.timi{
+     max-height: 100vh;
+}
+.active{
+     color: #fff;
+}
