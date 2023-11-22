@@ -1,7 +1,5 @@
-
-
 // Attach event listeners to elements with the "user" or "start" class
-const userElements = document.querySelectorAll(".user").addEventListener("click",sign())
+const userElements = document.querySelector(".user").addEventListener('Click',sign())
 
 function sign() {
     document.querySelector('#mod').innerHTML = `
@@ -31,7 +29,7 @@ function sign() {
                         <div class="d-flex justify-content-around">
                              <div class="form-group">
                                   <label for="email">Email Address</label>
-                                  <input type="email" class="form-control" id="email" placeholder="example@email.com">
+                                  <input type="email" class="form-control" id="emaill" placeholder="example@email.com">
                               </div>
     
                               <div class="form-group">
@@ -71,4 +69,4 @@ function sign() {
     </div>
     </div> 
     `
-  }
+}
