@@ -9,6 +9,7 @@
      <!-- Normal CSS Link -->
      <link rel="stylesheet" href="style.css">
      <title>Home</title>
+     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 </head>
 <body>
 
@@ -52,9 +53,9 @@
                </ul>
                
                <!-- Sign IN Modal -->
-               <div id="mod"></div>
+               <!-- <div id="mod"></div> -->
               <!-- Second Modal -->
-               <div class="modal modal-lg fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+               <!-- <div class="modal modal-lg fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
                     <div class="modal-dialog modal-dialog-centered">
                     <div class="modal-content bg-dark">
                          <div class="modal-header">
@@ -74,10 +75,10 @@
                                         <div id="userName">SeniorCub</div>
                                         <div class="Uname">Username</div>
                                         </div>
-                                   </div>
+                                   </div> -->
                
                                    <!-- Corrected ID for email -->
-                                   <div class="details col-5">
+                                   <!-- <div class="details col-5">
                                         <i class="fa-solid fa-envelope"></i>
                                         <div class="d-flex flex-column">
                                         <div id="uEmail">example@email.com</div>
@@ -108,7 +109,7 @@
                          </div>
                     </div>
                     </div>
-               </div>
+               </div> -->
  
 
                <div class="btn btns user" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">
@@ -121,6 +122,103 @@
  
 
      <section class="hero row">
+          
+          <div class="form-page">
+               <div class="container">
+                    <div class="modal-header p-1">
+                         <h1 class="modal-title fs-5 text-prim" id="exampleModalToggleLabel">
+                              Profile
+                         </h1>
+                         <button type="button" class="btn-close text-light" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    
+                    <div class="steps">
+                         <div class="step1">Step 1</div>
+                         <div class="step2">Step 2</div>
+                         <div class="step3">Step 3</div>
+                         <div class="step4">Step 4</div>
+     
+                         <div class="line1"></div>
+                         <div class="line2"></div>
+                         <div class="line3"></div>
+                         <div class="line4"></div>
+                    </div>
+     
+                    <div class="forms">
+     
+                         <div class="form1">
+                              <form>
+                                   <div class="label">
+                                        <label for="f_name">First Name:</label>
+                                        <input type="text" id="first_name">
+               
+                                        <label for="l_name">Last Name:</label>
+                                        <input type="text" id="last_name">
+               
+                                        <label for="u_name">User Name:</label>
+                                        <input type="text" id="user_name">
+                                   </div>
+                              </form>
+     
+                              <div class="movement">
+                                   <!-- <button class="back1">Back</button> -->
+                                   <button class="next next1">Next</button>
+                              </div>
+                         </div>
+          
+                         <div class="form2">
+                              <form>
+                                   <div class="label">
+                                        <label for="email">email:</label>
+                                        <input type="email" id="email">
+               
+                                        <label for="phone">Phone Numer:</label>
+                                        <input type="text" id="phone">
+               
+                                        <label for="Age">Age:</label>
+                                        <input type="text" id="age">
+                                   </div>
+                              </form>
+     
+                              <div class="movement">
+                                   <button class="back back2">Back</button>
+                                   <button class="next next2">Next</button>
+                              </div>
+                         </div>
+                         
+                         <div class="form3">
+                              <form>
+                                   <div class="label">
+                                        <label for="password">Create Password:</label>
+                                        <input type="password" id="CrPwd">
+               
+                                        <label for="confirm">Confirm your Password:</label>
+                                        <input type="password" id="CoPwd">
+                                   </div>
+                              </form>
+          
+                              <div class="movement">
+                                   <button class="back back3">Back</button>
+                                   <button class="next next3">Next</button>
+                              </div>
+                         </div>
+     
+                         <div class="form4">
+                              <form class="for">
+                                   <h3>I'm not a Robot</h3>
+                                   <input type="checkbox" name="" id="ckbox">
+                              </form>                                
+          
+                              <div class="movement">
+                                   <button class="back back4">Back</button>
+                                   <button class="next next4">Submit</button>
+                              </div>
+                         </div>
+     
+                    </div>
+               </div>
+          </div>
+
           <div class="part1 col-7">
                <div class="catch">
                     Scheduling made easy, Never get late anymore. Punctuality is a virtue. We love being punctual. Arrange your schedule properly. We came to arrange your life, Organized life equals success. The best calendar syncing tool in the planet.
