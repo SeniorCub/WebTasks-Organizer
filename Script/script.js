@@ -1,3 +1,5 @@
+
+const close = document.querySelector(".user").addEventListener("click",clo)
 // Next on Form one
 const next1 = document.querySelector('.next1').addEventListener("click", btn_next1);
 // Next and Back on Form 2
@@ -26,7 +28,7 @@ let ckbox = document.querySelector('#ckbox');
 
 // For Input filter
 const fullNamePattern = /^[A-Za-z\s'\-]+$/;
-// Define a regular expression pattern for email validation.
+// regular expression pattern for email validation.
 const emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
 
 // Step 1
@@ -142,3 +144,7 @@ function btn_next4() {
           alert('Error')
      }
 };
+function clo() {
+     const furm = document.querySelector("#form-page")
+     furm.style.display = 'block'
+}
