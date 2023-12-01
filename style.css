@@ -124,7 +124,7 @@ i, .text-prim, label {
  
 .container{
      width: 40%;
-     background-color: grey;
+     background-color: rgb(77, 77, 77);
      border-radius: 15px;
      justify-content: center;
      margin: auto;
@@ -289,7 +289,24 @@ input{
 }
 .sigg{
      display: none;
-}   
+}  
+.opp{
+     display: block;
+} 
+.opni{
+     display: grid;
+     grid-template-rows: repeat(2,1fr);
+     justify-content: center;
+     gap: 50%;
+     place-items: center;
+}
+.bttt{
+     background-color: #FFB200;
+}
+.btt{
+     background-color: #FEFEFA;
+     color: #FFB200;
+}
 .stee{
      display: grid;
      grid-template-columns: repeat(2,1fr);

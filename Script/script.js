@@ -1,11 +1,14 @@
 // To SignUp Button
 const signn = document.querySelector(".signn").addEventListener("click",signup)
+const opp2 = document.querySelector(".opp2").addEventListener("click",signup)
 // To signin Button
 const signupp = document.querySelector(".user").addEventListener("click",signin)
 const back1 = document.querySelector(".back1").addEventListener("click",signin)
+const opp1 = document.querySelector(".opp1").addEventListener("click",signin)
 // Close Button
 const close = document.querySelector(".close").addEventListener("click",closee)
 const close3 = document.querySelector(".close3").addEventListener("click",closee)
+const close4 = document.querySelector(".close4").addEventListener("click",closee)
 // Next on Form one
 const next1 = document.querySelector('.next1').addEventListener("click", btn_next1);
 // Next and Back on Form 2
@@ -162,20 +165,26 @@ function btn_next4() {
 function signup() {
      const furm = document.querySelector("#form-page")
      const fur = document.querySelector("#sigg")
+     const fu = document.querySelector("#opp")
      furm.style.display = 'block'
      fur.style.display = 'none'
+     fu.style.display = 'none'
 }
 function signin() {
      const furm = document.querySelector("#form-page")
      const fur = document.querySelector("#sigg")
+     const fu = document.querySelector("#opp")
      furm.style.display = 'none'
+     fu.style.display = 'none'
      fur.style.display = 'block'
 }
 function closee() {
      const furm = document.querySelector("#form-page")
      const fur = document.querySelector("#sigg")
+     const fu = document.querySelector("#opp")
      furm.style.display = 'none'
      fur.style.display = 'none'
+     fu.style.display = 'none'
 }
 
 
