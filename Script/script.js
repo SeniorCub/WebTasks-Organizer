@@ -1,5 +1,11 @@
-
-const close = document.querySelector(".user").addEventListener("click",clo)
+// To SignUp Button
+const signn = document.querySelector(".signn").addEventListener("click",signup)
+// To signin Button
+const signupp = document.querySelector(".user").addEventListener("click",signin)
+const back1 = document.querySelector(".back1").addEventListener("click",signin)
+// Close Button
+const close = document.querySelector(".close").addEventListener("click",closee)
+const close3 = document.querySelector(".close3").addEventListener("click",closee)
 // Next on Form one
 const next1 = document.querySelector('.next1').addEventListener("click", btn_next1);
 // Next and Back on Form 2
@@ -11,6 +17,14 @@ const back3 = document.querySelector('.back3').addEventListener("click", btn_bac
 // Back and Next on Form 4
 const back4 = document.querySelector('.back4').addEventListener("click", btn_back4);
 const next4 = document.querySelector('.next4').addEventListener("click", btn_next4);
+
+// Sign In Form
+// Next on Form one
+const nex1 = document.querySelector('.nex1').addEventListener("click", btn_nex1);
+const nex4 = document.querySelector('.nex4').addEventListener("click", btn_nex4);
+const bac4 = document.querySelector('.bac4').addEventListener("click", btn_bac4);
+let username = document.querySelector('#user_Name');
+let EnPwdd = document.querySelector('#EnPwd');
 
 // Inputs on Form 1
 let firstName = document.querySelector('#first_name');
@@ -30,6 +44,7 @@ let ckbox = document.querySelector('#ckbox');
 const fullNamePattern = /^[A-Za-z\s'\-]+$/;
 // regular expression pattern for email validation.
 const emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
+
 
 // Step 1
 function btn_next1() {
@@ -144,7 +159,60 @@ function btn_next4() {
           alert('Error')
      }
 };
-function clo() {
+function signup() {
      const furm = document.querySelector("#form-page")
+     const fur = document.querySelector("#sigg")
      furm.style.display = 'block'
+     fur.style.display = 'none'
 }
+function signin() {
+     const furm = document.querySelector("#form-page")
+     const fur = document.querySelector("#sigg")
+     furm.style.display = 'none'
+     fur.style.display = 'block'
+}
+function closee() {
+     const furm = document.querySelector("#form-page")
+     const fur = document.querySelector("#sigg")
+     furm.style.display = 'none'
+     fur.style.display = 'none'
+}
+
+
+// Sign IN Form
+// Step 1
+function btn_nex1() {
+     const form1 = document.querySelector('.for1')
+     const form2 = document.querySelector('.for2')
+     const line2 =document.querySelector('.lin2')
+     
+     if (username.value == "" || EnPwdd.value == "") {
+          alert('Error');
+     } else if (!fullNamePattern.test(username.value) ) {
+          alert('Either First name or Last name or UserName has Invalid inputs');
+     }else if (EnPwdd.value.length !== 8) {
+          alert('Password must be exactly 8 characters long');
+     }  else {
+          line2.style.display = 'block'
+          form1.style.left = '-600px'
+          form2.style.left = '130px'
+     }
+}
+function btn_bac4() {
+     const form1 = document.querySelector('.for1')
+     const form2 = document.querySelector('.for2')
+     const line2 =document.querySelector('.lin2')
+
+     line2.style.display = 'none'
+     form1.style.left = '130px'
+     form2.style.left = '600px'
+
+}
+function btn_nex4() {
+     if (cKbox.checked) {
+          // For external link
+          window.location.href = "https://www.github.com/seniorcub"
+     } else {
+          alert('Error')
+     }
+};

@@ -251,7 +251,7 @@ input{
      background-color: transparent;
      color: #fff;
 }
-#ckbox{
+#ckbox, #cKbox{
      width: 25px;
      height: 25px;
 }
@@ -286,8 +286,22 @@ input{
 .back:hover {
      background-color: #fff;
      color: #333;
+}
+.sigg{
+     display: none;
 }   
-
+.stee{
+     display: grid;
+     grid-template-columns: repeat(2,1fr);
+     justify-content: center;
+     align-items: center;
+}
+.lin1{
+     width: 50%;
+}
+.lin2{
+     width: 100%;
+}
 @media screen and (max-width: 768px) {
 .hero {
      position: relative;
