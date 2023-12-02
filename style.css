@@ -319,6 +319,11 @@ input{
 .lin2{
      width: 100%;
 }
+.d-f{
+     display: flex;
+     flex-direction: column;
+}
+
 @media screen and (max-width: 768px) {
 .hero {
      position: relative;
