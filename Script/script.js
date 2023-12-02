@@ -171,13 +171,39 @@ function btn_back4() {
 };
 function btn_next4() {
      if (ckbox.checked) {
-          // For external link
-          window.location.href = "https://www.github.com/seniorcub"
+          const furm = document.querySelector("#form-page")
+          const fur = document.querySelector("#sigg")
+          const fu = document.querySelector("#opp")
+          const f = document.querySelector("#profilee")
+          furm.style.display = 'none'
+          fur.style.display = 'none'
+          fu.style.display = 'none'
+          f.style.display = 'block'
+          
      } else {
           alert('Error')
      }
 };
 
+
+
+          // const fullname = `${lastName.value} ${firstName.value}`
+          // const usename = userName.value
+          // const agg = age.value
+          // const ema = email.value
+          // const phon = phone.value
+
+          // const fullName = document.querySelector("#fullName")
+          // const usernam = document.querySelector("#userName")
+          // const uEmail = document.querySelector("#uEmail")
+          // const phoneNumber = document.querySelector("#phoneNumber")
+          // const birthDay = document.querySelector("#birthDay")
+
+          // fullName.innerTEXT = fullname
+          // usernam.innerTEXT = usename
+          // uEmail.innerTEXT = ema
+          // phoneNumber.innerTEXT = phon
+          // birthDay.innerTEXT = agg
 
 
 
@@ -212,13 +238,18 @@ function btn_bac4() {
 }
 function btn_nex4() {
      if (cKbox.checked) {
-          // For external link
-          window.location.href = "https://www.github.com/seniorcub"
+          const furm = document.querySelector("#form-page")
+          const fur = document.querySelector("#sigg")
+          const fu = document.querySelector("#opp")
+          const f = document.querySelector("#profilee")
+          furm.style.display = 'none'
+          fur.style.display = 'none'
+          fu.style.display = 'none'
+          f.style.display = 'block'
      } else {
           alert('Error')
      }
 };
-
 
 
 
