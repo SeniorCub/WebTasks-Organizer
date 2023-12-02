@@ -99,7 +99,7 @@ body {
 .Uname {
      font-weight: 200;
      font-size: small;
-     color: #FEFEFA;
+     color: #FFB200;
 }
 .btn-prim {
      background-color: #FFB200;
@@ -287,12 +287,9 @@ input{
      background-color: #fff;
      color: #333;
 }
-.sigg{
+.sigg, .opp, #profilee{
      display: none;
-}  
-.opp{
-     display: block;
-} 
+}
 .opni{
      display: grid;
      grid-template-rows: repeat(2,1fr);

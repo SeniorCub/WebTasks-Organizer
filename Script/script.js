@@ -1,14 +1,20 @@
 // To SignUp Button
 const signn = document.querySelector(".signn").addEventListener("click",signup)
 const opp2 = document.querySelector(".opp2").addEventListener("click",signup)
+// Option Menu
+const edit = document.querySelector(".edit").addEventListener("click",oppp)
 // To signin Button
-const signupp = document.querySelector(".user").addEventListener("click",signin)
 const back1 = document.querySelector(".back1").addEventListener("click",signin)
 const opp1 = document.querySelector(".opp1").addEventListener("click",signin)
+// Proile Button
+const signupp = document.querySelector(".user").addEventListener("click",profil)
 // Close Button
 const close = document.querySelector(".close").addEventListener("click",closee)
 const close3 = document.querySelector(".close3").addEventListener("click",closee)
 const close4 = document.querySelector(".close4").addEventListener("click",closee)
+const close5 = document.querySelector(".close5").addEventListener("click",closee)
+
+// Sign Up Form
 // Next on Form one
 const next1 = document.querySelector('.next1').addEventListener("click", btn_next1);
 // Next and Back on Form 2
@@ -24,11 +30,19 @@ const next4 = document.querySelector('.next4').addEventListener("click", btn_nex
 // Sign In Form
 // Next on Form one
 const nex1 = document.querySelector('.nex1').addEventListener("click", btn_nex1);
+const nex11 = document.querySelector('.nex11').addEventListener("click", btn_nex1);
 const nex4 = document.querySelector('.nex4').addEventListener("click", btn_nex4);
 const bac4 = document.querySelector('.bac4').addEventListener("click", btn_bac4);
+const bac44 = document.querySelector('.bac44').addEventListener("click", btn_bac4);
+
+
+
+// From Sign IN Form
 let username = document.querySelector('#user_Name');
 let EnPwdd = document.querySelector('#EnPwd');
+let cKbox = document.querySelector('#cKbox');
 
+// Sign Up Form
 // Inputs on Form 1
 let firstName = document.querySelector('#first_name');
 let lastName = document.querySelector('#last_name');
@@ -49,6 +63,7 @@ const fullNamePattern = /^[A-Za-z\s'\-]+$/;
 const emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
 
 
+// Sign Up Form
 // Step 1
 function btn_next1() {
      const form1 = document.querySelector('.form1')
@@ -162,30 +177,8 @@ function btn_next4() {
           alert('Error')
      }
 };
-function signup() {
-     const furm = document.querySelector("#form-page")
-     const fur = document.querySelector("#sigg")
-     const fu = document.querySelector("#opp")
-     furm.style.display = 'block'
-     fur.style.display = 'none'
-     fu.style.display = 'none'
-}
-function signin() {
-     const furm = document.querySelector("#form-page")
-     const fur = document.querySelector("#sigg")
-     const fu = document.querySelector("#opp")
-     furm.style.display = 'none'
-     fu.style.display = 'none'
-     fur.style.display = 'block'
-}
-function closee() {
-     const furm = document.querySelector("#form-page")
-     const fur = document.querySelector("#sigg")
-     const fu = document.querySelector("#opp")
-     furm.style.display = 'none'
-     fur.style.display = 'none'
-     fu.style.display = 'none'
-}
+
+
 
 
 // Sign IN Form
@@ -225,3 +218,59 @@ function btn_nex4() {
           alert('Error')
      }
 };
+
+
+
+
+
+
+function signup() {
+     const furm = document.querySelector("#form-page")
+     const fur = document.querySelector("#sigg")
+     const fu = document.querySelector("#opp")
+     const f = document.querySelector("#profilee")
+     furm.style.display = 'block'
+     fur.style.display = 'none'
+     fu.style.display = 'none'
+     f.style.display = 'none'
+}
+function signin() {
+     const furm = document.querySelector("#form-page")
+     const fur = document.querySelector("#sigg")
+     const fu = document.querySelector("#opp")
+     const f = document.querySelector("#profilee")
+     furm.style.display = 'none'
+     fu.style.display = 'none'
+     fur.style.display = 'block'
+     f.style.display ='none'
+}
+function oppp() {
+     const furm = document.querySelector("#form-page")
+     const fur = document.querySelector("#sigg")
+     const fu = document.querySelector("#opp")
+     const f = document.querySelector("#profilee")
+     furm.style.display = 'none'
+     fur.style.display = 'none'
+     fu.style.display = 'block'
+     f.style.display = 'none'
+}
+function profil() {
+     const furm = document.querySelector("#form-page")
+     const fur = document.querySelector("#sigg")
+     const fu = document.querySelector("#opp")
+     const f = document.querySelector("#profilee")
+     furm.style.display = 'none'
+     fur.style.display = 'none'
+     fu.style.display = 'none'
+     f.style.display = 'block'
+}
+function closee() {
+     const furm = document.querySelector("#form-page")
+     const fur = document.querySelector("#sigg")
+     const fu = document.querySelector("#opp")
+     const f = document.querySelector("#profilee")
+     furm.style.display = 'none'
+     fur.style.display = 'none'
+     fu.style.display = 'none'
+     f.style.display = 'none'
+}
