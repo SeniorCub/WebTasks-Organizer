@@ -12,8 +12,6 @@ WebTasks-Organizer is a web development project designed to help you manage your
 - Comprehensive documentation and support for further development and customization.
 
 ## Getting Started
-
-
 <!-- Day 18 - Kepping Streaks -->
 <!-- Day 19 - Keeping Streaks -->
 <!-- Day 20 - Keeping Streaks -->
@@ -31,3 +29,4 @@ WebTasks-Organizer is a web development project designed to help you manage your
 <!-- Day 33 - Keeping Streaks -->
 <!-- Day 34 - Keeping Streaks -->
 <!-- Day 35 - Keeping Streaks -->
+<!-- Day 36 - Keeping Streaks -->
