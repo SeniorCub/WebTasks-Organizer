@@ -12,7 +12,7 @@ function startTimer() {
          alert("Please enter a valid time.");
          return;
      }
- 
+     
      const totalTimeInSeconds = (hours * 3600) + (minutes * 60) + seconds;
  
      const startTime = Date.now();
