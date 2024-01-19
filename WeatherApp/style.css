@@ -10,7 +10,7 @@ body{
 section{
     background-color: #fefefa28;
     width: 30%;
-    height: 70vh;
+    /* height: 70vh; */
     margin: auto;
     margin-top: 5%;
     padding: 20px;
@@ -24,7 +24,8 @@ section{
      width: 70%;
      padding: 10px;
      border: none;
-     border-bottom: 1px solid white;
+     border-bottom: 1px solid #333;
+     color: #333;
      border-top: none;
      margin-top: 10px;
      background-color: transparent;
