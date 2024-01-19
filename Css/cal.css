@@ -70,3 +70,8 @@ ul {
      display: flex;
      justify-content: space-between;
 }
+@media (max-width: 500px) {
+     .ul div{
+          font-size: 10px!important;
+     }
+}

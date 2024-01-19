@@ -17,15 +17,21 @@ section {
      align-items: center;
      gap: 20px;
      padding: 10px;
-     border-bottom: 5px solid #020F49;
+     border-bottom: 5px solid #333;
+}
+.input input{
+     color: black;
+}
+input::placeholder{
+     color: #020F49;
 }
 h1 {
      color: #FFB200;
-     border-bottom: 2px dashed #020F49;
+     border-bottom: 2px dashed #333;
 }
 .in {
      padding: 5px;
-     border: 2px solid #020F49;
+     border: 2px solid #333;
      border-radius: 20px;
 }
 .select {
@@ -37,7 +43,7 @@ h1 {
      width: max-content;
      color: #FEFEFA;
      background-color: #FFB200;
-     border: 2px solid #020F49;
+     border: 2px solid #333;
      border-radius: 20px;
 }
 .output {

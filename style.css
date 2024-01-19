@@ -374,9 +374,10 @@ body{
      font-weight: 900!important;
      color: black!important;
      /* background-color: #fefefa18; */
+     text-shadow: 1px 1px 20px #fff;
 }
 .part2{
-     opacity: 90%;
+     opacity: 90%!important;
 }
 }
  /* Day 17 :-: I dont want to loose */
