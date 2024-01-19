@@ -323,7 +323,8 @@ input{
 .modal-header h1{
      border: none!important;
      text-shadow: #FFB200 2px 2px 10px!important;
-     color: black!important;
+     color: #333!important;
+     font-weight: bolder!important;
 }
 @media screen and (max-width: 768px) {
 .hero {
@@ -362,6 +363,17 @@ input{
 }
 .navbar{
      width: 100%;
+}
+body{
+     width: 100vw;
+}
+.catch{
+     font-weight: 900!important;
+     color: black!important;
+     /* background-color: #fefefa18; */
+}
+.part2{
+     opacity: 90%;
 }
 }
  /* Day 17 :-: I dont want to loose */
