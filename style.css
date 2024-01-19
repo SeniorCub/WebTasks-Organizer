@@ -9,9 +9,13 @@
 }
 body {
      /* height: 100vh; */
-     overflow-x: hidden;
+     /* overflow-x: hidden; */
      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
      /* position: relative; */
+}
+.hero{
+     width: 100%!important;
+     background-color: #FFB200;
 }
 .navbar {
      background-color: #333;
@@ -133,8 +137,6 @@ i, .text-prim, label {
      height: 75%;
      overflow-x: hidden;
 }
-
-
 
 .steps{
 display: grid;
