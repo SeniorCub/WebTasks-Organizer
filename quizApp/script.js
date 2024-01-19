@@ -16,13 +16,138 @@ let questions = {
      },
      4: {
           question: "How many Harry Potter books are there?",
-          options: [ "7", "1", "4", "6"],
+          options: ["7", "1", "4", "6"],
           answer: "7",
      },
      5: {
           question: "How many sides does a triangle have?",
           options: ["3", "2", "4", "5"],
           answer: "3",
+     },
+     6: {
+          question: "What is the largest mammal?",
+          options: ["Blue Whale", "Elephant", "Giraffe", "Hippopotamus"],
+          answer: "Blue Whale",
+     },
+     7: {
+          question: "Which planet is known as the Red Planet?",
+          options: ["Mars", "Venus", "Jupiter", "Saturn"],
+          answer: "Mars",
+     },
+     8: {
+          question: "What is the currency of Japan?",
+          options: ["Yen", "Yuan", "Won", "Ringgit"],
+          answer: "Yen",
+     },
+     9: {
+          question: "In what year did the Titanic sink?",
+          options: ["1912", "1905", "1920", "1931"],
+          answer: "1912",
+     },
+     10: {
+          question: "Who painted the Mona Lisa?",
+          options: ["Leonardo da Vinci", "Vincent van Gogh", "Pablo Picasso", "Claude Monet"],
+          answer: "Leonardo da Vinci",
+     },
+     11: {
+          question: "What is the largest planet in our solar system?",
+          options: ["Jupiter", "Earth", "Saturn", "Mars"],
+          answer: "Jupiter",
+     },
+     12: {
+          question: "Which country is known as the Land of the Rising Sun?",
+          options: ["Japan", "China", "South Korea", "Vietnam"],
+          answer: "Japan",
+     },
+     13: {
+          question: "Who wrote 'Romeo and Juliet'?",
+          options: ["William Shakespeare", "Charles Dickens", "Jane Austen", "Mark Twain"],
+          answer: "William Shakespeare",
+     },
+     14: {
+          question: "What is the largest ocean on Earth?",
+          options: ["Pacific Ocean", "Atlantic Ocean", "Indian Ocean", "Southern Ocean"],
+          answer: "Pacific Ocean",
+     },
+     15: {
+          question: "Which element has the chemical symbol 'O'?",
+          options: ["Oxygen", "Gold", "Iron", "Carbon"],
+          answer: "Oxygen",
+     },
+     16: {
+          question: "Who is the author of 'To Kill a Mockingbird'?",
+          options: ["Harper Lee", "J.K. Rowling", "Ernest Hemingway", "George Orwell"],
+          answer: "Harper Lee",
+     },
+     17: {
+          question: "What is the speed of light?",
+          options: ["300,000 km/s", "150,000 km/s", "200,000 km/s", "250,000 km/s"],
+          answer: "300,000 km/s",
+     },
+     18: {
+          question: "Which continent is known as the 'Dark Continent'?",
+          options: ["Africa", "Asia", "South America", "Australia"],
+          answer: "Africa",
+     },
+     19: {
+          question: "Who is known as the 'Father of Computers'?",
+          options: ["Charles Babbage", "Bill Gates", "Alan Turing", "Steve Jobs"],
+          answer: "Charles Babbage",
+     },
+     20: {
+          question: "What is the capital of Australia?",
+          options: ["Canberra", "Sydney", "Melbourne", "Brisbane"],
+          answer: "Canberra",
+     },
+     21: {
+          question: "Which planet is known as the 'Morning Star' or 'Evening Star'?",
+          options: ["Venus", "Mars", "Jupiter", "Saturn"],
+          answer: "Venus",
+     },
+     22: {
+          question: "Who developed the theory of relativity?",
+          options: ["Albert Einstein", "Isaac Newton", "Stephen Hawking", "Niels Bohr"],
+          answer: "Albert Einstein",
+     },
+     23: {
+          question: "What is the smallest prime number?",
+          options: ["2", "0", "1", "3"],
+          answer: "2",
+     },
+     24: {
+          question: "Which country is known as the 'Land of the Midnight Sun'?",
+          options: ["Norway", "Sweden", "Finland", "Denmark"],
+          answer: "Norway",
+     },
+     25: {
+          question: "Who painted 'Starry Night'?",
+          options: ["Vincent van Gogh", "Leonardo da Vinci", "Pablo Picasso", "Claude Monet"],
+          answer: "Vincent van Gogh",
+     },
+     26: {
+          question: "What is the largest desert in the world?",
+          options: ["Antarctic Desert", "Sahara Desert", "Arctic Desert", "Gobi Desert"],
+          answer: "Antarctic Desert",
+     },
+     27: {
+          question: "Who wrote '1984'?",
+          options: ["George Orwell", "Aldous Huxley", "Ray Bradbury", "H.G. Wells"],
+          answer: "George Orwell",
+     },
+     28: {
+          question: "Which gas makes up the majority of Earth's atmosphere?",
+          options: ["Nitrogen", "Oxygen", "Carbon Dioxide", "Hydrogen"],
+          answer: "Nitrogen",
+     },
+     29: {
+          question: "Who is the founder of Microsoft?",
+          options: ["Bill Gates", "Steve Jobs", "Mark Zuckerberg", "Jeff Bezos"],
+          answer: "Bill Gates",
+     },
+     30: {
+          question: "What is the capital of Brazil?",
+          options: ["Brasilia", "Rio de Janeiro", "Sao Paulo", "Salvador"],
+          answer: "Brasilia",
      },
 }
 

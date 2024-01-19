@@ -11,6 +11,8 @@ section{
      justify-content: center;
      align-items: center;
      flex-direction: column;
+     gap: 50px;
+     background-color: #3333339a;
 }
 .container{
      display: grid;
@@ -18,7 +20,7 @@ section{
      align-items: center;
      width: 100%;
      background-color: transparent;
-     color: #333;
+     color: #fff;
      border-radius: 0px;
      overflow-x: visible;
 }
@@ -118,3 +120,8 @@ input{
      width: 30px;
      height: 30px;
 }
+.btns {
+     border: none;
+     padding: 0px;
+     border-radius: 0%;
+   }
