@@ -320,7 +320,11 @@ input{
      display: flex;
      flex-direction: column;
 }
-
+.modal-header h1{
+     border: none!important;
+     text-shadow: #FFB200 2px 2px 10px!important;
+     color: black!important;
+}
 @media screen and (max-width: 768px) {
 .hero {
      position: relative;
