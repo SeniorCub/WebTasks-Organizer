@@ -7,3 +7,6 @@
  .inputss{
      color: #333;
  }
+ #source{
+     width: max-content;
+ }

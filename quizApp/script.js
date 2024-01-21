@@ -274,12 +274,12 @@ result.addEventListener("click", () => {
         score += 20;
         scoreDisplay.innerText = score; // Update the displayed score
         if (score == 80 || score == 100 || score == 120) {
-            if (score == 120) {
-                score = 100;
-            }
             audio.src = "./audio/mixkit-church-moderate-applause-499.wav";
             alert(`Your score is ${score}. You are a genius`);
             window.location.reload();
+            if (score == 120) {
+                score = 100;
+            }
         } else if (score === 40 || score === 60) {
             audio.src = "./audio/mixkit-light-applause-with-laughter-audience-512.wav";
             alert(`Your score is ${score}. You are a little bit smart`);
