@@ -38,11 +38,11 @@
                               </a>
                          </li>
 
-                         <li class="nav-item">
+                         <!-- <li class="nav-item">
                               <a href="Html/ToDo.html">
                                    <i class="fa-solid fa-list-check"></i> Notes
                               </a>
-                         </li>
+                         </li> -->
 
                          <li class="nav-item">
                               <a href="Html/time.htm">
@@ -173,32 +173,7 @@
      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
      <!-- Font Awsome -->
      <script src="https://kit.fontawesome.com/2a49fbdbb8.js" crossorigin="anonymous"></script>
-
-     <script>
-          // Add a delay function
-          function delay(milliseconds) {
-            return new Promise(resolve => setTimeout(resolve, milliseconds));
-          }
-        
-          // Call the delay function before displaying content
-          async function initializeWebsite() {
-            // Show loading display
-            document.getElementById('loading').style.display = 'flex';
-        
-            // Add any other initialization code here
-        
-            // Wait for 2000 milliseconds (2 seconds) before displaying content
-            await delay(2000);
-        
-            // Hide loading display
-            document.getElementById('loading').style.display = 'none';
-        
-            // Display the content by removing the 'hidden' class
-            document.getElementById('content').classList.remove('hidden');
-          }
-        
-          // Run the initialization function when the window has finished loading
-          window.addEventListener('load', initializeWebsite);
-     </script>
+     <!-- JavaScript Link -->
+     <script src="script.js"></script>
 </body>
 </html>
