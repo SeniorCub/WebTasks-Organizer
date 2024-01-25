@@ -50,6 +50,10 @@ body {
 }
 .hero{
      background-color: #FFB200;
+     height: 90vh;
+     padding: 50px;
+     place-items: center;
+     background-color: #FFB200;
 }
 .navbar {
      background-color: #333;
@@ -88,14 +92,6 @@ body {
      border: 2px solid #FEFEFA;
      padding: 5px;
      border-radius: 100%;
-}
-.hero {
-     background-color: #FFB200;
-     height: 100vh;
-     padding: 50px;
-     place-items: center;
-     width:100vw;
-     /* position: relative; */
 }
 .part1 {
      display: flex;
@@ -369,7 +365,6 @@ input{
      display: block;
      background: transparent;
      background-color: #00000030;
-     width: 100vw;
 }
 .part1 {
      width: 100%;
