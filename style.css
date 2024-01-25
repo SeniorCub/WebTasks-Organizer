@@ -288,9 +288,6 @@ input{
      width: 25px;
      height: 25px;
 }
-
-
-
 .movement {
      width: 100%;
 }
@@ -356,10 +353,10 @@ input{
 .modal-header h1{
      border: none!important;
      text-shadow: #FFB200 2px 2px 10px!important;
-     color: #333!important;
-     font-weight: bolder!important;
-}
-@media screen and (max-width: 768px) {
+     color: #333!important;position: relative;
+     position: absolute;
+     height: 300px;
+     top: 70px;
 .hero {
      position: relative;
      display: block;
@@ -389,7 +386,7 @@ input{
 }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
 *{
      font-size: 20px!important;
 }

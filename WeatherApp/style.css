@@ -82,3 +82,7 @@ img{
 .minii{
      border-right: 2px solid black;
 }
+
+@media (max-width: 600px) {
+
+}

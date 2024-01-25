@@ -1,5 +1,5 @@
 .outer-analog-container{
-    width: 100vw;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -106,3 +106,9 @@
 @keyframes rotatehour {
     to{transform: rotate(360deg);}
 } */
+
+@media (max-width: 600px) {
+     .clock-container{
+          left: 10%;
+      }
+}
