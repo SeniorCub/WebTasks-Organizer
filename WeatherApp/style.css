@@ -83,6 +83,15 @@ img{
      border-right: 2px solid black;
 }
 
-@media (max-width: 600px) {
-
+@media (max-width: 1000px) {
+     section{
+          width: 90%;
+     }
+}
+@media (max-width: 400px) {
+     .search{
+          font-size: 15px!important;
+          color: #333;
+          padding: 5px;
+     }
 }
