@@ -365,6 +365,9 @@ input{
 *{
      font-size: 20px!important;
 }
+body{
+     width: 100%;
+}
 .navbar {
      width: 100%;
 }
@@ -380,12 +383,11 @@ input{
 .hero {
      position: relative;
      display: block;
-     background: transparent;
-     background-color: #00000030;
-     width: 100%;
+     background: transparent;      
+     width: 100vw;
 }
 .part1 {
-     width: 100%;
+     width: 100vw;
      height: 100%;
      margin: 0 auto;
      display: flex;
@@ -393,7 +395,7 @@ input{
      z-index: 1;
 }
 .part2 {
-     width: 100%;
+     width: 100vw;
      height: 100%;
      position: absolute;
      left: 0px;
