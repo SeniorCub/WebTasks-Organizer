@@ -47,13 +47,14 @@ body {
      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
      /* position: relative; */
      width: 100%!important;
+     height: 100vh;
 }
 .hero{
      background-color: #FFB200;
-     height: 90vh;
      padding: 50px;
      place-items: center;
      background-color: #FFB200;
+     height: 100%;
 }
 .navbar {
      background-color: #333;
@@ -357,11 +358,31 @@ input{
      position: absolute;
      height: 300px;
      top: 70px;
+}
+
+
+@media (max-width: 600px) {
+*{
+     font-size: 20px!important;
+}
+.navbar {
+     width: 100%;
+}
+.catch{
+     font-weight: 900!important;
+     color: black!important;
+     /* background-color: #fefefa18; */
+     text-shadow: 1px 1px 20px #fff;
+}
+.part2{
+     opacity: 90%!important;
+}
 .hero {
      position: relative;
      display: block;
      background: transparent;
      background-color: #00000030;
+     width: 100%;
 }
 .part1 {
      width: 100%;
@@ -383,27 +404,6 @@ input{
 }
 .part2 img {
      object-fit: contain;
-}
-}
-
-@media (max-width: 600px) {
-*{
-     font-size: 20px!important;
-}
-.navbar{
-     width: 100%;
-}
-body{
-     width: 100vw;
-}
-.catch{
-     font-weight: 900!important;
-     color: black!important;
-     /* background-color: #fefefa18; */
-     text-shadow: 1px 1px 20px #fff;
-}
-.part2{
-     opacity: 90%!important;
 }
 }
  /* Day 17 :-: I dont want to loose */
