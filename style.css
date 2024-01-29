@@ -11,6 +11,24 @@
 .hidden {
      display: none;
 }
+#progress-bar-container {
+     position: fixed;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 5px;
+     background-color: #333;
+     z-index: 1000;
+   }
+   
+   #progress-bar {
+     height: 100%;
+     width: 0;
+     background-color: #FFB200;
+     transition: width 0.3s ease-in-out;
+   }
+   
+   
 /* Styling for the loading display */
 .loading {
      display: none;
@@ -47,9 +65,14 @@ body {
      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
      /* position: relative; */
      width: 100%!important;
+     height: 100vh;
 }
 .hero{
      background-color: #FFB200;
+     padding: 50px;
+     place-items: center;
+     background-color: #FFB200;
+     height: 100%;
 }
 .navbar {
      background-color: #333;
@@ -88,14 +111,6 @@ body {
      border: 2px solid #FEFEFA;
      padding: 5px;
      border-radius: 100%;
-}
-.hero {
-     background-color: #FFB200;
-     height: 100vh;
-     padding: 50px;
-     place-items: center;
-     width:100vw;
-     /* position: relative; */
 }
 .part1 {
      display: flex;
@@ -292,9 +307,6 @@ input{
      width: 25px;
      height: 25px;
 }
-
-
-
 .movement {
      width: 100%;
 }
@@ -360,19 +372,40 @@ input{
 .modal-header h1{
      border: none!important;
      text-shadow: #FFB200 2px 2px 10px!important;
-     color: #333!important;
-     font-weight: bolder!important;
+     color: #333!important;position: relative;
+     position: absolute;
+     height: 300px;
+     top: 70px;
 }
-@media screen and (max-width: 768px) {
+
+
+@media (max-width: 600px) {
+*{
+     font-size: 20px!important;
+}
+body{
+     width: 100%;
+}
+.navbar {
+     width: 100%;
+}
+.catch{
+     font-weight: 900!important;
+     color: black!important;
+     /* background-color: #fefefa18; */
+     text-shadow: 1px 1px 20px #fff;
+}
+.part2{
+     opacity: 90%!important;
+}
 .hero {
      position: relative;
      display: block;
-     background: transparent;
-     background-color: #00000030;
+     background: transparent;      
      width: 100vw;
 }
 .part1 {
-     width: 100%;
+     width: 100vw;
      height: 100%;
      margin: 0 auto;
      display: flex;
@@ -380,7 +413,7 @@ input{
      z-index: 1;
 }
 .part2 {
-     width: 100%;
+     width: 100vw;
      height: 100%;
      position: absolute;
      left: 0px;
@@ -391,27 +424,6 @@ input{
 }
 .part2 img {
      object-fit: contain;
-}
-}
-
-@media (max-width: 500px) {
-*{
-     font-size: 20px!important;
-}
-.navbar{
-     width: 100%;
-}
-body{
-     width: 100vw;
-}
-.catch{
-     font-weight: 900!important;
-     color: black!important;
-     /* background-color: #fefefa18; */
-     text-shadow: 1px 1px 20px #fff;
-}
-.part2{
-     opacity: 90%!important;
 }
 }
  /* Day 17 :-: I dont want to loose */

@@ -12,6 +12,9 @@ WebTasks-Organizer is a web development project designed to help you manage your
 - Comprehensive documentation and support for further development and customization.
 
 ## Getting Started
+
+It has been
+[![Netlify Status](https://api.netlify.com/api/v1/badges/d2ffd548-4263-4be6-b662-710301a2150d/deploy-status)](https://app.netlify.com/sites/webtasksorganizer/deploys)
 <!-- Day 18 - Kepping Streaks -->
 <!-- Day 19 - Keeping Streaks -->
 <!-- Day 20 - Keeping Streaks -->
