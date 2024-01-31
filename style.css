@@ -21,12 +21,6 @@
      z-index: 1000;
    }
    
-   #progress-bar {
-     height: 100%;
-     width: 0;
-     background-color: #FFB200;
-     transition: width 0.3s ease-in-out;
-   }
    
    
 /* Styling for the loading display */
