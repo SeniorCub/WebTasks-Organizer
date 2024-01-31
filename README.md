@@ -20,10 +20,6 @@ You can check it out on.. [![WebTask](https://webtasksorganizer.netlify.app)](ht
 <!-- Day 20 - Keeping Streaks -->
 <!-- Day 21 - Keeping Streaks -->
 <!-- Day 22 - Keeping Streaks -->
-<!-- Day 22 - Keeping Streaks -->
-<!-- Day 22 - Keeping Streaks -->
-<!-- Day 22 - Keeping Streaks -->
-<!-- Day 22 - Keeping Streaks -->
 <!-- Day 27 - Keeping Streaks -->
 <!-- Day 29 - Keeping Streaks -->
 <!-- Day 30 - Keeping Streaks -->
