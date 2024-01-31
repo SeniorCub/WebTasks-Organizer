@@ -28,6 +28,12 @@ document.addEventListener("DOMContentLoaded", () => {
 
 document.querySelector('.search').addEventListener('click',show)
 
+document.addEventListener("keydown", function (event) {
+     if (event.key === "Enter") {
+         show();
+     }
+});
+
 function show(){
      // City Name
      const cityValue = document.querySelector('.city').value;

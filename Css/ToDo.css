@@ -1,162 +1,59 @@
-/* Styles for the main section */
-section {
-     margin: 0 auto;
-     margin-top: 30px;
-     text-align: center;
+body{
+     width: 100vw;
+     height: max-content;
      background-color: #FFB200;
-     width: 80vw;
-     border-radius: 30px;
-     padding: 20px;  
 }
-
-section h1 {
-     font-size: 40px;
-     border-bottom: 3px dashed black;
-     color: black;
-     margin-bottom: 20px;
-}
-
-.input {
-     width: max-content;
-     background-color: #FEFEFA;
-     margin: 0 auto;
-     border-radius: 20px;
-}
-
-.input input {
-     padding: 10px;
-     border-radius: 20px;
-     border: none;
-     outline: none;
-     background: transparent;
-     color: #333;
-}
-
-.input button {
-     padding: 10px;
-     border-radius: 20px;
-     border: none;
-     outline: none;
-     background-color: #333;
-     color: aliceblue;
-     font-weight: 600;
-}
-
-.input button:hover {
-     box-shadow: 2px 2px 5px black;
-}
-
-/* Styles for list items */
-#taskList {
-     margin: 0 auto;
-     list-style-type: none;
-     padding: 0;
-     margin-top: 20px;
-     background-color: transparent;
-     border: 1px solid black;
-     border-radius: 30px;
-     height: 70%;
-     width: 80%;
+.plus{
+     position: fixed;
+     bottom: 1%;
+     right: 1%;
+     transform: translate(-50%,-50%);
      display: flex;
-     flex-direction: column;
-     place-items: center;
-     overflow-y: scroll;
-}
-
-li {
-     float: left;
-     display: flex;
+     justify-content: center;
      align-items: center;
-     place-items: center;
-     margin: 5px 0;
-     font-size: 15px;
+     font-size: 30px;
+     cursor: pointer;
+     transition: 1s;
+     background-color: #333;
+     border-radius: 100%;
+     width: 50px;
+     height: 50px;
 }
-
-#taskList button {
-     margin-left: 10px;
-     padding: 3px;
-     border-radius: 10px;
-     background-color: #FEFEFA;
-     border: 1px solid black;
-}
-
-/* Styles for saved lists and list items */
-#savedLists {
-     margin-top: 20px;
+.new{
+     width: 80vw; 
+     top: 15%;
+     left: 10%;
+     position: absolute;
+     background-color: #fff;
+     padding: 20px;
      text-align: center;
-}
-
-#savedLists h2 {
-     font-size: 28px;
-     color: black;
-     margin-bottom: 10px;
-}
-
-#savedListItems {
-     list-style-type: none;
-     padding: 0;
      display: flex;
-     flex-wrap: wrap;
-     justify-content: center;
-}
-
-#savedListItems > div {
-     background-color: #f2f2f2;
-     border: 1px solid #ddd;
-     border-radius: 10px;
-     padding: 5px 20px;
-     margin: 10px;
-     width: auto;
-     text-align: left;
-}
-
-#savedListItems h2 {
-     font-size: 18px;
-     margin-bottom: 5px;
-}
-
-#savedListItems ul {
-     list-style-type: none;
-     padding: 0;
-     display: flex;
-     gap: 5px;
      flex-direction: column;
      justify-content: center;
+     align-items: center;
+     display: none;
 }
-
-#savedListItems li {
-     font-size: 15px;
-     margin-bottom: 5px;
-}
-
-/* Styles for title input and buttons */
-#listTitle {
-     margin: 0 auto;
-     margin-top: 10px;
-     padding: 10px;
-     border-radius: 10px;
-     border: 1px solid #ddd;
-     width: 90%;
-     font-size: 16px;
+.vv{
+     text-align: center;
      display: flex;
-     gap: 10px;
+     justify-content: space-between;
+     align-items: center;
 }
-#time-to-complete{
-     width: 60px;
-}
-#saveList {
-     margin-top: 10px;
-     padding: 10px 20px;
-     border-radius: 20px;
+.title{
+     width: 100%;
      border: none;
+     border-bottom: 1px solid #333;
+     text-indent: 1.5%;
      outline: none;
-     background-color: #333;
-     color: aliceblue;
-     font-weight: 600;
-     cursor: pointer;
-     transition: background-color 0.3s ease;
 }
-
-#saveList:hover {
-     background-color: #555;
+.pin{
+     font-size: 20px;
+     padding: 10px;
+     cursor: pointer;
+}
+#note{
+     width: 100%;
+     border: none;
+     text-indent: 1.5%;
+     outline: none;
 }

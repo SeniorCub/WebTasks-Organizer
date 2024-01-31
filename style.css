@@ -10,19 +10,7 @@
 /* Initially hide the content with the 'hidden' class */
 .hidden {
      display: none;
-}
-#progress-bar-container {
-     position: fixed;
-     top: 0;
-     left: 0;
-     width: 100%;
-     height: 5px;
-     background-color: #333;
-     z-index: 1000;
-   }
-   
-   
-   
+}   
 /* Styling for the loading display */
 .loading {
      display: none;
