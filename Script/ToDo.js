@@ -1,17 +1,50 @@
-let neww = document.querySelector(".new")
-
-
 document.querySelector('.plus').addEventListener('click', add)
+document.querySelector(".btnss").addEventListener("click", save)
+document.querySelector(".icon").addEventListener("click", closee)
+let notesss = []
 
 function add() {
      document.querySelector('.new').style.display = 'block'
 }
 
-document.querySelector("#savednotes").addEventListener("click",()=>{
-     let newww = document.querySelector(".new")
-     
-     // //  Finally, a ternary operator is used to toggle the display property of the "carts" element. If extended is true (i.e., the element is currently visible), the display property is set to "none", which hides the element. If extended is false (i.e., the element is currently hidden), the display property is set to "block", which makes the element visible.
+function save() {
+     document.querySelector('.new').style.display = 'none'
 
-     let extended = newww.style.display === "block"
-     newww.style.display = extended? "none" : "block"
-})
+     let title = document.querySelector('#title').value
+     let note = document.querySelector('#note').value
+    
+     document.querySelector('#savednotes').innerHTML += `
+          <div id="savenote">
+               <div class="head">
+                         <div class="title">${title}.</div>
+               </div>
+               <div id="content">
+                    ${note}
+               </div>
+               <div class="hovvv">
+                    <div class="icons trash" onclick="trash()">
+                         <i class="fas fa-trash-alt" style="color:#333;"></i>
+                    </div>
+                    <div class="icons edit" onclick="edit()">
+                         <i class="fas fa-edit" style="color:#333;"></i>
+                    </div>
+               </div>
+          </div>
+     `
+     notesss.push({title, note})
+     console.log(notesss);
+}
+
+function closee() {
+     let newww = document.querySelector(".new")
+     newww.style.display = "none"
+}
+
+function trash() {
+     notesss.pop()
+     console.log(notesss);
+}
+
+function edit() {
+     document.querySelector(".new").style.display = "block"
+}
