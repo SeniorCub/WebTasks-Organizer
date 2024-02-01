@@ -42,19 +42,16 @@
 }
 
 body {
-     /* height: 100vh; */
      overflow-x: hidden;
      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
      /* position: relative; */
      width: 100%!important;
-     height: 100vh;
 }
 .hero{
      background-color: #FFB200;
      padding: 50px;
      place-items: center;
      background-color: #FFB200;
-     height: 100%;
 }
 .navbar {
      background-color: #333;

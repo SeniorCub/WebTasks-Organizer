@@ -24,7 +24,7 @@ body{
      top: 15%;
      left: 10%;
      position: absolute;
-     background-color: #fff;
+     background-color: #333;
      padding: 20px;
      text-align: center;
      display: flex;
@@ -33,6 +33,13 @@ body{
      align-items: center;
      display: none;
      border-radius: 30px;
+}
+input, textarea{
+     background-color: transparent;
+}
+input::placeholder, textarea::placeholder{
+     color: #FFB200;
+     font-weight: 900;
 }
 .vv{
      text-align: center;
@@ -43,7 +50,7 @@ body{
 .title{
      width: 100%;
      border: none;
-     border-bottom: 1px solid #333;
+     border-bottom: 1px solid #fff;
      text-indent: 1.5%;
      outline: none;
 }
@@ -61,7 +68,6 @@ body{
 #savednotes{
      width: 100%;
      padding: 20px;
-     /* background-color: #fff; */
      display: grid;
      grid-template-columns: repeat(4, 1fr);
      gap: 30px;
@@ -73,4 +79,15 @@ body{
      height: max-content;
      color: #fff;
      border-radius: 20px;
+     overflow: hidden;
+}
+#title{
+     font-size: 20px;
+     font-weight: 900;
+     text-transform: capitalize;
+     border-bottom: #FFB200 2px solid;
+}
+#content{
+     height: 200px;
+     text-wrap: wrap;
 }
