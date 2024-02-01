@@ -32,6 +32,7 @@ body{
      justify-content: center;
      align-items: center;
      display: none;
+     border-radius: 30px;
 }
 .vv{
      text-align: center;
@@ -56,4 +57,20 @@ body{
      border: none;
      text-indent: 1.5%;
      outline: none;
+}
+#savednotes{
+     width: 100%;
+     padding: 20px;
+     /* background-color: #fff; */
+     display: grid;
+     grid-template-columns: repeat(4, 1fr);
+     gap: 30px;
+}
+#savenote{
+     width: 100%;
+     padding: 20px;
+     background-color: #333;
+     height: max-content;
+     color: #fff;
+     border-radius: 20px;
 }
