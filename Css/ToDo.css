@@ -32,10 +32,19 @@ body{
      justify-content: center;
      align-items: center;
      display: none;
+     border: 1px solid #fff;
      border-radius: 30px;
 }
 input, textarea{
      background-color: transparent;
+     color: #fff;
+}
+input{
+     font-weight: 900;
+     font-size: 20px;
+}
+textarea{
+     height: 300px;
 }
 input::placeholder, textarea::placeholder{
      color: #FFB200;
@@ -70,7 +79,7 @@ input::placeholder, textarea::placeholder{
      padding: 20px;
      display: grid;
      grid-template-columns: repeat(4, 1fr);
-     gap: 30px;
+     gap: 50px;
 }
 #savenote{
      width: 100%;
@@ -81,13 +90,27 @@ input::placeholder, textarea::placeholder{
      border-radius: 20px;
      overflow: hidden;
 }
+.head{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     border-bottom: #FFB200 2px solid;
+}
 #title{
      font-size: 20px;
      font-weight: 900;
-     text-transform: capitalize;
-     border-bottom: #FFB200 2px solid;
 }
 #content{
      height: 200px;
      text-wrap: wrap;
+}
+.savee{
+     padding: 10px 20px;
+     background-color: #FFB200;
+     color: #fff;
+     border-radius: 10px;
+     cursor: pointer;
+     font-weight: 900;
+     font-size: 20px;
+     transition: 1s;
 }
