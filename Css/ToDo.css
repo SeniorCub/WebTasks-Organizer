@@ -95,6 +95,10 @@ body {
      font-size: 20px;
      transition: 1s;
  }
+ .savee:hover{
+     background-color: #fff;
+     color: #FFB200;
+ }
  
  .icons,
  .icon {
