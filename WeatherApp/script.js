@@ -3,8 +3,8 @@ const Key = '7dc1ab100e58aa77a1655c5c439962f3';
 
 
 document.addEventListener("DOMContentLoaded", () => {
-               let city = "New York";
-               const url = `http://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${Key}`;
+               const url = `https://api.openweathermap.org/data/2.5/weather?q=New%20York&units=metric&appid=7dc1ab100e58aa77a1655c5c439962f3
+               `;
           
                fetch(url)
                .then(response => response.json())
