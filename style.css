@@ -64,6 +64,9 @@ body {
      color: #FFB200;
      text-shadow: 2px 2px 5px #FEFEFA;
 }
+.brand:hover{
+     color: #FEFEFA;
+}
 .nav-links {
      float: right;
      list-style: none;
