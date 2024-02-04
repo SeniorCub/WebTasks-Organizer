@@ -16,7 +16,7 @@
 .hh1{
      font-size: 50px;
      font-weight: 900;
-     color: #fff;
+     color: #020F49;
 }
 .cacc{
      font-size: 20px;
@@ -24,12 +24,13 @@
      letter-spacing: 2px;
      word-spacing: 10px;
      width: 50%;
+     color: #333;
 }
 .bbtn{
      display: flex;
      gap: 30px;
 }
-.btn{
+.btnn{
      padding: 10px;
      background-color: #ffb200;
      color: #fff;
