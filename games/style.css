@@ -1,0 +1,59 @@
+ /* color: #FEFEFA, #020F49, #FFB200, #333, #00000030, #fff, #fefefa28; */
+.herogame{
+     height: 80vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+}
+.gamecatch{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     gap: 20px;
+}
+.hh1{
+     font-size: 50px;
+     font-weight: 900;
+     color: #fff;
+}
+.cacc{
+     font-size: 20px;
+     text-align: center;
+     letter-spacing: 2px;
+     word-spacing: 10px;
+     width: 50%;
+}
+.bbtn{
+     display: flex;
+     gap: 30px;
+}
+.btn{
+     padding: 10px;
+     background-color: #ffb200;
+     color: #fff;
+     border-radius: 20px;
+}
+.btbb{
+     padding: 10px;
+     background-color: #ffb200;
+     border-radius: 20px;
+}
+.ss{
+     width: 100%;
+     height: 100%;
+     position: absolute;
+     z-index: -1;
+     background-color: #ffb200;
+}
+img{
+     width: 100%;
+     height: 100%;
+}
+.games{
+     display: grid;
+     grid-template-columns: repeat(4, 1fr);
+     margin-top: 100px;
+     padding: 0 50px;
+}
