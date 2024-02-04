@@ -8,12 +8,13 @@ const back1 = document.querySelector(".back1").addEventListener("click",signin)
 const opp1 = document.querySelector(".opp1").addEventListener("click",signin)
 // Proile Button
 const signupp = document.querySelector(".user").addEventListener("click",profil)
+// Change password button
+const chgps = document.querySelector(".chgpsd").addEventListener("click",chgpsd)
 // Close Button
-const close = document.querySelector(".close").addEventListener("click",closee)
-const close3 = document.querySelector(".close3").addEventListener("click",closee)
-const close4 = document.querySelector(".close4").addEventListener("click",closee)
-const close5 = document.querySelector(".close5").addEventListener("click",closee)
-
+const close = document.querySelectorAll(".close")
+for (let i = 0; i < close.length; i++) {
+     close[i].addEventListener("click",closee)
+}
 // Sign Up Form
 // Next on Form one
 const next1 = document.querySelector('.next1').addEventListener("click", btn_next1);
@@ -185,28 +186,6 @@ function btn_next4() {
      }
 };
 
-
-
-          // const fullname = `${lastName.value} ${firstName.value}`
-          // const usename = userName.value
-          // const agg = age.value
-          // const ema = email.value
-          // const phon = phone.value
-
-          // const fullName = document.querySelector("#fullName")
-          // const usernam = document.querySelector("#userName")
-          // const uEmail = document.querySelector("#uEmail")
-          // const phoneNumber = document.querySelector("#phoneNumber")
-          // const birthDay = document.querySelector("#birthDay")
-
-          // fullName.innerTEXT = fullname
-          // usernam.innerTEXT = usename
-          // uEmail.innerTEXT = ema
-          // phoneNumber.innerTEXT = phon
-          // birthDay.innerTEXT = agg
-
-
-
 // Sign IN Form
 // Step 1
 function btn_nex1() {
@@ -260,7 +239,9 @@ function signup() {
      const fur = document.querySelector("#sigg")
      const fu = document.querySelector("#opp")
      const f = document.querySelector("#profilee")
+     const fo = document.querySelector("#chg-page")
      furm.style.display = 'block'
+     fo.style.display = 'none'
      fur.style.display = 'none'
      fu.style.display = 'none'
      f.style.display = 'none'
@@ -270,7 +251,9 @@ function signin() {
      const fur = document.querySelector("#sigg")
      const fu = document.querySelector("#opp")
      const f = document.querySelector("#profilee")
+     const fo = document.querySelector("#chg-page")
      furm.style.display = 'none'
+     fo.style.display = 'none'
      fu.style.display = 'none'
      fur.style.display = 'block'
      f.style.display ='none'
@@ -280,28 +263,47 @@ function oppp() {
      const fur = document.querySelector("#sigg")
      const fu = document.querySelector("#opp")
      const f = document.querySelector("#profilee")
+     const fo = document.querySelector("#chg-page")
      furm.style.display = 'none'
      fur.style.display = 'none'
      fu.style.display = 'block'
      f.style.display = 'none'
+     fo.style.display = 'none'
 }
 function profil() {
      const furm = document.querySelector("#form-page")
      const fur = document.querySelector("#sigg")
      const fu = document.querySelector("#opp")
+     const fo = document.querySelector("#chg-page")
      const f = document.querySelector("#profilee")
      furm.style.display = 'none'
      fur.style.display = 'none'
      fu.style.display = 'none'
+     fo.style.display = 'none'
      f.style.display = 'block'
 }
+function chgpsd() {
+     const furm = document.querySelector("#form-page")
+     const fur = document.querySelector("#sigg")
+     const fu = document.querySelector("#opp")
+     const f = document.querySelector("#profilee")
+     const fo = document.querySelector("#chg-page")
+     furm.style.display = 'none'
+     fur.style.display = 'none'
+     fu.style.display = 'none'
+     f.style.display = 'none'
+     fo.style.display = 'block'
+}
+
 function closee() {
      const furm = document.querySelector("#form-page")
      const fur = document.querySelector("#sigg")
      const fu = document.querySelector("#opp")
+     const fo = document.querySelector("#chg-page")
      const f = document.querySelector("#profilee")
      furm.style.display = 'none'
      fur.style.display = 'none'
      fu.style.display = 'none'
      f.style.display = 'none'
+     fo.style.display = 'none'
 }
