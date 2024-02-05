@@ -190,10 +190,10 @@ i, .text-prim, label {
 
 
 .steps{
-display: grid;
-grid-template-columns: repeat(4,1fr);
-border-bottom: 1px solid #333;
-position: relative;
+     display: grid;
+     grid-template-columns: repeat(4,1fr);
+     border-bottom: 1px solid #333;
+     position: relative;
 }
 
 .steps div{
