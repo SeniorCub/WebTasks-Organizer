@@ -25,16 +25,16 @@ const back2 = document.querySelector('.back2').addEventListener("click", btn_bac
 const next3 = document.querySelector('.next3').addEventListener("click", btn_next3);
 const back3 = document.querySelector('.back3').addEventListener("click", btn_back3);
 // Back and Next on Form 4
-const back4 = document.querySelector('.back4').addEventListener("click", btn_back4);
-const next4 = document.querySelector('.next4').addEventListener("click", btn_next4);
+// const back4 = document.querySelector('.back4').addEventListener("click", btn_back4);
+// const next4 = document.querySelector('.next4').addEventListener("click", btn_next4);
 
 // Sign In Form
 // Next on Form one
-const nex1 = document.querySelector('.nex1').addEventListener("click", btn_nex1);
+// const nex1 = document.querySelector('.nex1').addEventListener("click", btn_nex1);
 const nex11 = document.querySelector('.nex11').addEventListener("click", btn_nex1);
-const nex4 = document.querySelector('.nex4').addEventListener("click", btn_nex4);
-const bac4 = document.querySelector('.bac4').addEventListener("click", btn_bac4);
-const bac44 = document.querySelector('.bac44').addEventListener("click", btn_bac4);
+// const nex4 = document.querySelector('.nex4').addEventListener("click", btn_nex4);
+// const bac4 = document.querySelector('.bac4').addEventListener("click", btn_bac4);
+// const bac44 = document.querySelector('.bac44').addEventListener("click", btn_bac4);
 
 
 
@@ -51,12 +51,9 @@ let userName = document.querySelector('#user_name');
 // Inputs on Form 2
 let email = document.querySelector('#email');
 let phone = document.querySelector('#phone');
-let age = document.querySelector('#age');
 // Inputs on Form 3
 let crPwd = document.querySelector('#CrPwd');
 let coPwd = document.querySelector('#CoPwd');
-// Inputs on Form 4
-let ckbox = document.querySelector('#ckbox');
 
 // For Input filter
 const fullNamePattern = /^[A-Za-z\s'\-]+$/;
@@ -70,7 +67,7 @@ function btn_next1() {
      const form1 = document.querySelector('.form1')
      const form2 = document.querySelector('.form2')
      const form3 = document.querySelector('.form3')
-     const form4 = document.querySelector('.form4')
+     // const form4 = document.querySelector('.form4')
      const line2 =document.querySelector('.line2')
      
      if (firstName.value == "" || lastName.value == "" || userName.value == "") {
@@ -82,7 +79,7 @@ function btn_next1() {
           form1.style.left = '-600px'
           form2.style.left = '130px'
           form3.style.left = '600px'
-          form4.style.left = '1070px'
+          // form4.style.left = '1070px'
      }
 };
 // Step 2
@@ -90,7 +87,7 @@ function btn_next2() {
      const form1 = document.querySelector('.form1')
      const form2 = document.querySelector('.form2')
      const form3 = document.querySelector('.form3')
-     const form4 = document.querySelector('.form4')
+     // const form4 = document.querySelector('.form4')
      const line3 =document.querySelector('.line3')
      const ageValue = parseInt(age.value);
 
@@ -105,53 +102,53 @@ function btn_next2() {
      form1.style.left = '-1070px'
      form2.style.left = '-600px'
      form3.style.left = '130px'
-     form4.style.left = '600px'
+     // form4.style.left = '600px'
      }
 };
 function btn_back2() {
      const form1 = document.querySelector('.form1')
      const form2 = document.querySelector('.form2')
      const form3 = document.querySelector('.form3')
-     const form4 = document.querySelector('.form4')
+     // const form4 = document.querySelector('.form4')
      const line2 =document.querySelector('.line2')
 
      line2.style.display = 'none'
      form1.style.left = '130px'
      form2.style.left = '600px'
      form3.style.left = '1070px'
-     form4.style.left = '1540px'
+     // form4.style.left = '1540px'
 };
 // Step 3
 function btn_back3() {
      const form1 = document.querySelector('.form1')
      const form2 = document.querySelector('.form2')
      const form3 = document.querySelector('.form3')
-     const form4 = document.querySelector('.form4')
+     // const form4 = document.querySelector('.form4')
      const line3 =document.querySelector('.line3')
 
      line3.style.display = 'none'
      form1.style.left = '-600px'
      form2.style.left = '130px' 
      form3.style.left = '600px'
-     form4.style.left = '1070px'
+     // form4.style.left = '1070px'
 };
 function btn_next3() {
      const form1 = document.querySelector('.form1')
      const form2 = document.querySelector('.form2')
      const form3 = document.querySelector('.form3')
-     const form4 = document.querySelector('.form4')
-     const line4 =document.querySelector('.line4')
+     // const form4 = document.querySelector('.form4')
+     // const line4 =document.querySelector('.line4')
      if (crPwd.value == "" || coPwd.value == "") {
           alert('Error')
      }else if (crPwd.value.length !== 8 || coPwd.value.length !== 8) {
           alert('Password must be exactly 8 characters long');
      } else if (crPwd.value === coPwd.value) {
           // Proceed to the next step
-          line4.style.display = 'block'
+          // line4.style.display = 'block'
           form1.style.left = '-1540px'
           form2.style.left = '-1070px' 
           form3.style.left = '-600px'
-          form4.style.left = '130px'
+          // form4.style.left = '130px'
      } else {
           alert('Passwords do not match');
      }
@@ -161,29 +158,14 @@ function btn_back4() {
      const form1 = document.querySelector('.form1')
      const form2 = document.querySelector('.form2')
      const form3 = document.querySelector('.form3')
-     const form4 = document.querySelector('.form4')
-     const line4 =document.querySelector('.line4')
+     // const form4 = document.querySelector('.form4')
+     // const line4 =document.querySelector('.line4')
 
-     line4.style.display = 'none'
+     // line4.style.display = 'none'
      form1.style.left = '-1070px'
      form2.style.left = '-600px'
      form3.style.left = '130px'
-     form4.style.left = '600px'
-};
-function btn_next4() {
-     if (ckbox.checked) {
-          const furm = document.querySelector("#form-page")
-          const fur = document.querySelector("#sigg")
-          const fu = document.querySelector("#opp")
-          const f = document.querySelector("#profilee")
-          furm.style.display = 'none'
-          fur.style.display = 'none'
-          fu.style.display = 'none'
-          f.style.display = 'block'
-          
-     } else {
-          alert('Error')
-     }
+     // form4.style.left = '600px'
 };
 
 // Sign IN Form
