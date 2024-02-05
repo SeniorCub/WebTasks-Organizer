@@ -32,7 +32,7 @@ document.querySelector('.search').addEventListener('click',show)
 function show(){
      // City Name
      const cityValue = document.querySelector('.city').value;
-     if (cityValue == '') {
+     if (cityValue === '') {
           alert('Please enter a city name 😩');
      } else {
           function fetchWeather(city) {
