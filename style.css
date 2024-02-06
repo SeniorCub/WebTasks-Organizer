@@ -42,7 +42,7 @@
 }
 
 body {
-     /* overflow-x: hidden; */
+     overflow-x: hidden;
      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
      /* position: relative; */
      width: 100%!important;
@@ -184,7 +184,7 @@ i, .text-prim, label {
      margin: auto;
      color: #fff;
      height: 75%;
-     /* overflow-x: hidden; */
+     overflow-x: hidden;
 }
 
 
@@ -213,7 +213,7 @@ border-left: 1px solid #333;
 z-index: 1;
 }
 
-.line1{
+.line1, .line111{
 position: absolute;
 width: 33.3%;
 top: 0;
@@ -221,7 +221,7 @@ bottom: 0;
 background-color: #333;
 /* display: none; */
 }
-.line2{
+.line2, .line222{
 position: absolute;
 width: 66.6%;
 top: 0;
@@ -229,7 +229,7 @@ bottom: 0;
 background-color: #333;
 display: none;
 }
-.line3{
+.line3, .line333{
 position: absolute;
 width: 100%;
 top: 0;
@@ -251,17 +251,17 @@ height: 100%;
 .form1{
      top: 50px;
      left: 10%;
-     transition: 1.5s;
+     transition: 1s;
 }
 .form2{
      top: 50px;
      left: 110%;
-     transition: 1.5s;
+     transition: 1s;
 }
 .form3{
      top: 50px;
      left: 160%;
-     transition: 1.5s;
+     transition: 1s;
 }
 .for {
      display: flex;
@@ -367,7 +367,28 @@ form{
 .form11{
      top: 50px;
      left: 30%;
-     transition: 1.5s;
+     transition: 1s;
+}
+
+/* Change Password */
+.form111, .form222, .form333{
+     position: absolute;
+     height: 100%;
+}
+.form111{
+     top: 20px;
+     left: 30%;
+     transition: 1s;
+}
+.form222{
+     top: 20px;
+     left: 110%;
+     transition: 1s;
+}
+.form333{
+     top: 20px;
+     left: 160%;
+     transition: 1s;
 }
 @media (max-width: 600px) {
 *{

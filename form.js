@@ -132,3 +132,55 @@ function back2() {
 }
 
 // Sign In
+document.querySelector(".login").addEventListener("click",profil)
+
+// Change Password
+document.querySelector(".back222").addEventListener("click",back222)
+document.querySelector(".getcode").addEventListener("click",getcode)
+document.querySelector(".verify").addEventListener("click",verify)
+document.querySelector(".back333").addEventListener("click",back333)
+document.querySelector(".chan333").addEventListener("click",chan333)
+
+function back222() {
+     const form111 = document.querySelector('.form111')
+     const form222 = document.querySelector('.form222')
+     const form333 = document.querySelector('.form333')
+     const line1 =document.querySelector('.line111')
+     line1.style.display = 'block'
+     form111.style.left = '30%'
+     form222.style.left = '110%'
+     form333.style.left = '160%'
+}
+function getcode() {
+     const form111 = document.querySelector('.form111')
+     const form222 = document.querySelector('.form222')
+     const form333 = document.querySelector('.form333')
+     const line2 =document.querySelector('.line222')
+     line2.style.display = 'block'
+     form111.style.left = '-110%'
+     form222.style.left = '30%'
+     form333.style.left = '110%'
+}
+function verify() {
+     const form111 = document.querySelector('.form111')
+     const form222 = document.querySelector('.form222')
+     const form333 = document.querySelector('.form333')
+     const line3 =document.querySelector('.line333')
+     line3.style.display = 'block'
+     form111.style.left = '-160%'
+     form222.style.left = '-110%'
+     form333.style.left = '30%'
+}
+function back333() {
+     const form111 = document.querySelector('.form111')
+     const form222 = document.querySelector('.form222')
+     const form333 = document.querySelector('.form333')
+     const line2 =document.querySelector('.line222')
+     line2.style.display = 'block'
+     form111.style.left = '-110%'
+     form222.style.left = '30%'
+     form333.style.left = '160%'
+}
+function chan333() {
+     profil()
+}
