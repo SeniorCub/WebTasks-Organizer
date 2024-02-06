@@ -42,7 +42,7 @@
 }
 
 body {
-     overflow-x: hidden;
+     /* overflow-x: hidden; */
      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
      /* position: relative; */
      width: 100%!important;
@@ -184,14 +184,14 @@ i, .text-prim, label {
      margin: auto;
      color: #fff;
      height: 75%;
-     overflow-x: hidden;
+     /* overflow-x: hidden; */
 }
 
 
 
 .steps{
      display: grid;
-     grid-template-columns: repeat(4,1fr);
+     grid-template-columns: repeat(3,1fr);
      border-bottom: 1px solid #333;
      position: relative;
 }
@@ -209,13 +209,13 @@ border-right: 1px solid #333;
 border-left: 1px solid #333;
 }
 
-.step1, .step2, .step3, .step4{
+.step1, .step2, .step3{
 z-index: 1;
 }
 
 .line1{
 position: absolute;
-width: 25%;
+width: 33.3%;
 top: 0;
 bottom: 0;
 background-color: #333;
@@ -223,21 +223,13 @@ background-color: #333;
 }
 .line2{
 position: absolute;
-width: 50%;
+width: 66.6%;
 top: 0;
 bottom: 0;
 background-color: #333;
 display: none;
 }
 .line3{
-position: absolute;
-width: 75%;
-top: 0;
-bottom: 0;
-background-color: #333;
-display: none;
-}
-.line4{
 position: absolute;
 width: 100%;
 top: 0;
@@ -247,42 +239,29 @@ display: none;
 }
 
 .forms{
-width: 100%;
-/* background-color: blue; */
-display: flex;
-/* overflow: hidden; */
-position: relative;
+     width: 100%;
+     position: relative;
 }
 
-.form1, .form2, .form3, .form4{
+.form1, .form2, .form3, .form11{
 position: absolute;
 height: 100%;
 }
 
-form{
-padding: 20px 40px;
-display: grid;
-}
-
 .form1{
      top: 50px;
-left: 130px;
-transition: 1.5s;
+     left: 10%;
+     transition: 1.5s;
 }
 .form2{
      top: 50px;
-left: 600px;
-transition: 1.5s;
+     left: 110%;
+     transition: 1.5s;
 }
 .form3{
-     top: 120px;
-left: 1070px;
-transition: 1.5s;
-}
-.form4{
-     top: 120px;
-left: 1540px;
-transition: 1.5s;
+     top: 50px;
+     left: 160%;
+     transition: 1.5s;
 }
 .for {
      display: flex;
@@ -302,8 +281,8 @@ input{
      margin: 15px;
      outline: none;
      padding: 0 10px;
-     background-color: transparent;
-     color: #fff;
+     background-color: #fff;
+     color: #333;
 }
 #ckbox, #cKbox{
      width: 25px;
@@ -314,6 +293,8 @@ input{
 
 .movement {
      width: 100%;
+     display: flex;
+     justify-content: space-between;
 }
 .next {
      padding: 7px 15px;
@@ -345,10 +326,11 @@ input{
      display: none;
 }
 .opni{
-     display: grid;
-     grid-template-rows: repeat(2,1fr);
+     display: flex;
+     flex-direction: column;
      justify-content: center;
-     gap: 50%;
+     gap: 20px;
+     align-items: center;
      place-items: center;
 }
 .bttt{
@@ -374,7 +356,19 @@ input{
      display: flex;
      flex-direction: column;
 }
+form{
+     display: flex;
+     flex-direction: column;
+     gap: 20px;
+     width: 200px;
+}
 
+/* Sign In */
+.form11{
+     top: 50px;
+     left: 30%;
+     transition: 1.5s;
+}
 @media (max-width: 600px) {
 *{
      font-size: 20px!important;
@@ -422,7 +416,3 @@ body{
      object-fit: contain;
 }
 }
- /* Day 17 :-: I dont want to loose */
- /* Day 19 :-: I dont want to loose streak */
- /* Day 40 :-: I dont want to loose streak */
- /* Day 42 :-: I dont want to loose streak */
