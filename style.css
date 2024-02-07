@@ -371,7 +371,7 @@ form{
 }
 
 /* Change Password */
-.form111, .form222, .form333{
+.form111, .form222, .form333, .form3334{
      position: absolute;
      height: 100%;
 }
@@ -390,6 +390,22 @@ form{
      left: 160%;
      transition: 1s;
 }
+.form3334{
+     top: 20px;
+     left: 30%;
+     transition: 1s;
+     display: none;
+}
+.forpsd{
+     font-size: smaller;
+     cursor: pointer;
+     margin-top: -10px;
+}
+.forpsd:hover{
+     color: #FFB200;
+}
+
+
 @media (max-width: 600px) {
 *{
      font-size: 20px!important;

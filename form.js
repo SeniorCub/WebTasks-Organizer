@@ -140,6 +140,9 @@ document.querySelector(".getcode").addEventListener("click",getcode)
 document.querySelector(".verify").addEventListener("click",verify)
 document.querySelector(".back333").addEventListener("click",back333)
 document.querySelector(".chan333").addEventListener("click",chan333)
+document.querySelector(".forpsd").addEventListener("click",forpsd)
+document.querySelector(".back444").addEventListener("click",back444)
+document.querySelector(".chan444").addEventListener("click",chan444)
 
 function back222() {
      const form111 = document.querySelector('.form111')
@@ -182,5 +185,20 @@ function back333() {
      form333.style.left = '160%'
 }
 function chan333() {
+     profil()
+}
+function forpsd() {
+     const form333 = document.querySelector('.form333')
+     const form3334 = document.querySelector('.form3334')
+     form333.style.display = 'none'
+     form3334.style.display = 'block'
+}
+function back444() {
+     const form333 = document.querySelector('.form333')
+     const form3334 = document.querySelector('.form3334')
+     form333.style.display = 'block'
+     form3334.style.display = 'none'
+}
+function chan444() {
      profil()
 }

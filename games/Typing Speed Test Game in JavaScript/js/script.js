@@ -60,6 +60,13 @@ function initTyping() {
     } else {
         clearInterval(timer);
         inpField.value = "";
+          typingText.innerHTML = `
+          <h1>Test Completed!</h1>
+          <p>Words Per Minutes: <span>${wpmTag.innerText}</span></p>
+          <p>Corect Letters: <span>${cpmTag.innerText}</span></p>
+          <p>Mistakes: <span>${mistakeTag.innerText}</span></p>
+          `;
+        
     }   
 }
 
