@@ -248,11 +248,38 @@ vinn.addEventListener("click", ()=>{
      pp.style.display='none'
 })
 
-const camera = document.querySelector(".fa-camera")
-const pror = document.querySelector(".property")
+const pror = document.querySelector(".propety")
+const proor = document.querySelector(".propet")
 
+
+const camera = document.querySelector(".fa-camera")
+const check = document.querySelector(".check")
+const upload = document.querySelector(".fa-upload")
 camera.addEventListener("click", ()=> {
-     pror.innerHTML = `
-          
+     pror.style.display = 'block'
+     proor.innerHTML = `
+          <h3 for="selfi">Take a Selfie</h3>
+          <input type="file" capture="user"  accept="image/*">
      `
+})
+upload.addEventListener("click", ()=> {
+     pror.style.display = 'block'
+     proor.innerHTML = `
+          <h3 for="selfi">Upload a Picture</h3>
+          <input type="file" accept="image/*">
+     `
+})
+check.addEventListener("click", ()=> {
+     pror.style.display = 'block'
+     proor.innerHTML = `
+          <img src="images/img/Untitled.png" alt="face" class="face">
+     `
+})
+
+
+const bcol = document.querySelectorAll(".bcol")
+bcol.forEach(i=>{
+     i.addEventListener('click', ()=>{
+          pror.style.display = 'none'
+     })
 })

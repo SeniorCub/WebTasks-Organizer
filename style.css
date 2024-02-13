@@ -430,6 +430,12 @@ form{
      cursor: pointer;
      user-select: none;
 }
+.prole-img img{
+     width: 100%;
+     height: 100%;
+     border-radius: 100%;
+     object-fit: cover;
+}
 .prole-img{
      width: 100px;
      height: 100px;
@@ -439,7 +445,6 @@ form{
 }
 img{
      width: 100%;
-     border-radius: 100%;
      height: 100%;
      object-fit: cover;
 }
@@ -451,10 +456,32 @@ img{
      background-color: #000000b1;
      width: 100px;
      height: 100px;
-     top: 10;
+     top: 15px;
      justify-content: center;
      align-items: center;
      display: none;
+}
+.fa-camera{
+     font-size: 30px;
+     cursor: pointer;
+}
+.propety{
+     position: absolute;
+     width: max-content;
+     height: max-content;
+     text-align: center;
+     background-color: #333333c0;
+     display: none;
+     padding: 10px;
+}
+.bcol{
+     background: linear-gradient(to top, #FFB200 50%, #333 50%);
+     cursor: pointer;
+}
+.propet img{
+     width: 200px;
+     height: 200px;
+     object-fit: cover;
 }
 @media (max-width: 600px) {
 *{
