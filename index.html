@@ -109,7 +109,7 @@
                     </div>
      
                     <div class="forms">
-     
+                         <!-- Names -->
                          <div class="form1">
                               <form>
                                    <div class="label">
@@ -136,7 +136,7 @@
                                    </div>
      
                          </div>
-          
+                         <!-- User Info -->
                          <div class="form2">
                               <form>
                                    <div class="label">
@@ -153,15 +153,25 @@
                                    <button class="next next2">Next</button>
                               </div>
                          </div>
-                         
+                         <!-- Passwords -->
                          <div class="form3">
                               <form>
                                    <div class="label">
                                         <label for="password">Create Password:</label>
-                                        <input type="password" id="CrPwd">
+                                        <div class="password">
+                                             <input type="password" id="CrPwd" placeholder="Enter Password">
+                                             <span>
+                                                  <i class="fa-regular fa-eye" id="iee"></i>
+                                             </span>
+                                        </div>
                
                                         <label for="confirm">Confirm your Password:</label>
-                                        <input type="password" id="CoPwd">
+                                        <div class="password">
+                                             <input type="password" id="CoPwd" placeholder="Enter Password">
+                                             <span>
+                                                  <i class="fa-regular fa-eye" id="iee"></i>
+                                             </span>
+                                        </div>
                                    </div>
                               </form>
           
@@ -195,7 +205,13 @@
                                         <input type="text" id="user_Name">
 
                                         <label for="password">Enter Password:</label>
-                                        <input type="password" id="EnPwd">
+                                        <div class="password">
+                                             <input type="password" id="EnPwd" placeholder="Enter Password">
+                                             <span>
+                                                  <i class="fa-regular fa-eye" id="iee"></i>
+                                             </span>
+                                        </div>
+                                        
                                    </div>
                               </form>
      
@@ -293,7 +309,7 @@
           </div>
 
           <!-- Change Password Form -->
-          <div class="modal form-page" id="chg-page"> 
+          <div class="modal form-page" id="chg-page">
                <div class="container">
                     <div class="modal-header p-1">
                          <h1 class="modal-title fs-5 text-prim">

@@ -202,3 +202,36 @@ function back444() {
 function chan444() {
      profil()
 }
+
+// Show and Hide Password
+const $password = document.querySelectorAll('.password input')
+const $toogler = document.querySelectorAll('#iee')
+$toogler.forEach(i=>{
+     i.addEventListener('click', showHidePassword)
+} )
+function showHidePassword(){
+     $password.forEach($pwd => {
+          $pwd.type === 'password'? $pwd.setAttribute('type', 'text') : $pwd.setAttribute('type', 'password')
+     })
+     $toogler.forEach(i=>{
+          i.classList.toggle('fa-eye')
+          i.classList.toggle('fa-eye-slash')
+     })
+}
+$toogler.addEventListener('click', showHidePassword)
+
+
+// Learn How To hide or SHow Password
+// const $password = document.querySelector('.password input')
+// const $toogler = document.querySelector('#iee')
+// const showHidePassword = () => {
+//      if ($password.type === 'password') {
+//           $password.setAttribute('type', 'text')
+//      } else {
+//           $password.setAttribute('type', 'password')
+//      }
+
+//      $toogler.classList.toggle('fa-eye')
+//      $toogler.classList.toggle('fa-eye-slash')
+// }
+// $toogler.addEventListener('click', showHidePassword)

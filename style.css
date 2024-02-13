@@ -405,6 +405,32 @@ form{
      color: #FFB200;
 }
 
+.password{
+     position: relative;
+}
+.password input{
+     border: 0;
+     border-radius: 10px;
+     font-size: 1rem;
+     letter-spacing: 1px;
+     box-sizing: border-box;
+}
+.password input:focus{
+     outline: none;
+}
+.password input::placeholder{
+     color: #000;
+     font-weight: bold;
+}
+.password i{
+     position: absolute;
+     right: 20px;
+     top: 50%;
+     transform: translateY(-50%);
+     cursor: pointer;
+     user-select: none;
+}
+
 
 @media (max-width: 600px) {
 *{
