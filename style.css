@@ -430,8 +430,32 @@ form{
      cursor: pointer;
      user-select: none;
 }
-
-
+.prole-img{
+     width: 100px;
+     height: 100px;
+     object-fit: cover;
+     position: relative;
+     cursor: pointer;
+}
+img{
+     width: 100%;
+     border-radius: 100%;
+     height: 100%;
+     object-fit: cover;
+}
+.pp{
+     display: flex;
+     border-radius: 100%;
+     gap: 10px;
+     position: absolute;
+     background-color: #000000b1;
+     width: 100px;
+     height: 100px;
+     top: 10;
+     justify-content: center;
+     align-items: center;
+     display: none;
+}
 @media (max-width: 600px) {
 *{
      font-size: 20px!important;

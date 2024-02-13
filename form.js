@@ -204,21 +204,20 @@ function chan444() {
 }
 
 // Show and Hide Password
-const $password = document.querySelectorAll('.password input')
-const $toogler = document.querySelectorAll('#iee')
-$toogler.forEach(i=>{
+const password = document.querySelectorAll('.password input')
+const toogler = document.querySelectorAll('#iee')
+toogler.forEach(i=>{
      i.addEventListener('click', showHidePassword)
 } )
 function showHidePassword(){
-     $password.forEach($pwd => {
-          $pwd.type === 'password'? $pwd.setAttribute('type', 'text') : $pwd.setAttribute('type', 'password')
+     password.forEach(pwd => {
+          pwd.type === 'password'? pwd.setAttribute('type', 'text') : pwd.setAttribute('type', 'password')
      })
-     $toogler.forEach(i=>{
+     toogler.forEach(i=>{
           i.classList.toggle('fa-eye')
           i.classList.toggle('fa-eye-slash')
      })
 }
-$toogler.addEventListener('click', showHidePassword)
 
 
 // Learn How To hide or SHow Password
@@ -235,3 +234,25 @@ $toogler.addEventListener('click', showHidePassword)
 //      $toogler.classList.toggle('fa-eye-slash')
 // }
 // $toogler.addEventListener('click', showHidePassword)
+
+const pp = document.querySelector("#pp")
+const vinn = document.querySelector(".prole-img")
+
+vinn.addEventListener("mouseover", ()=>{
+     pp.style.display='flex'
+})
+vinn.addEventListener("mouseout", ()=>{
+     pp.style.display='none'
+})
+vinn.addEventListener("click", ()=>{
+     pp.style.display='none'
+})
+
+const camera = document.querySelector(".fa-camera")
+const pror = document.querySelector(".property")
+
+camera.addEventListener("click", ()=> {
+     pror.innerHTML = `
+          
+     `
+})
