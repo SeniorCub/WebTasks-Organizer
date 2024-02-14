@@ -65,19 +65,3 @@ Bonus:
     Tailor the logp to your target audience and their specific needs.
 
 I hope this gives you a great starting point for your website logp! Feel free to adapt and personalize it to perfectly capture the essence of your all-in-one toolkit.
-
-<!-- Day 18 - Kepping Streaks -->
-<!-- Day 19 - Keeping Streaks -->
-<!-- Day 20 - Keeping Streaks -->
-<!-- Day 21 - Keeping Streaks -->
-<!-- Day 22 - Keeping Streaks -->
-<!-- Day 27 - Keeping Streaks -->
-<!-- Day 29 - Keeping Streaks -->
-<!-- Day 30 - Keeping Streaks -->
-<!-- Day 31 - Keeping Streaks -->
-<!-- Day 32 - Keeping Streaks -->
-<!-- Day 33 - Keeping Streaks -->
-<!-- Day 34 - Keeping Streaks -->
-<!-- Day 35 - Keeping Streaks -->
-<!-- Day 36 - Keeping Streaks -->
-<!-- Day 41 - Keeping Streaks -->
