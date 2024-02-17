@@ -154,25 +154,43 @@ function back222() {
      form222.style.left = '110%'
      form333.style.left = '160%'
 }
-function getcode() {
-     const form111 = document.querySelector('.form111')
-     const form222 = document.querySelector('.form222')
-     const form333 = document.querySelector('.form333')
-     const line2 =document.querySelector('.line222')
-     line2.style.display = 'block'
-     form111.style.left = '-110%'
-     form222.style.left = '30%'
-     form333.style.left = '110%'
+const generateId = () => {
+    return Math.random().toString(36).substring(7)
 }
+let code; // Declare code globally
+
+function getcode() {
+    const form111 = document.querySelector('.form111')
+    const form222 = document.querySelector('.form222')
+    const form333 = document.querySelector('.form333')
+    const line2 = document.querySelector('.line222')
+    line2.style.display = 'block'
+    form111.style.left = '-110%'
+    form222.style.left = '30%'
+    form333.style.left = '110%'
+
+    // Move the generateId function here
+    code = generateId();
+    alert(`Your code is ${code}`);
+}
+
 function verify() {
-     const form111 = document.querySelector('.form111')
-     const form222 = document.querySelector('.form222')
-     const form333 = document.querySelector('.form333')
-     const line3 =document.querySelector('.line333')
-     line3.style.display = 'block'
-     form111.style.left = '-160%'
-     form222.style.left = '-110%'
-     form333.style.left = '30%'
+    const form111 = document.querySelector('.form111');
+    const form222 = document.querySelector('.form222');
+    const form333 = document.querySelector('.form333');
+    const line3 = document.querySelector('.line333');
+
+    const codede = document.querySelector('#code').value;
+
+    if (code == codede) {
+        line3.style.display = 'block';
+        form111.style.left = '-160%';
+        form222.style.left = '-110%';
+        form333.style.left = '30%';
+        console.log(`${codede} == ${code} is correct`);
+    } else {
+        alert('Invalid Code');
+    }
 }
 function back333() {
      const form111 = document.querySelector('.form111')
