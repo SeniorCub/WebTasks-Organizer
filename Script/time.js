@@ -8,7 +8,7 @@ function updateTime() {
      var days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
      document.getElementById("days").innerHTML = days[d.getDay()];
      document.getElementById("day").innerHTML = d.getDate();
-     var months = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"];
+     var months = ["January", "Febuary", "March", "April", "May", "June", "July", "Agust", "September", "October", "November", "December"];
      document.getElementById("month").innerHTML = months[d.getMonth()];
      document.getElementById("year").innerHTML = d.getFullYear();
 }
