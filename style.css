@@ -186,7 +186,11 @@ i, .text-prim, label {
      height: 75%;
      overflow-x: hidden;
 }
-
+@media (max-width:550px) {
+     .container{
+          width: 80%;
+     }
+}
 
 
 .steps{

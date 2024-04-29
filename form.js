@@ -259,11 +259,11 @@ const vinn = document.querySelector(".prole-img")
 vinn.addEventListener("mouseover", ()=>{
      pp.style.display='flex'
 })
-vinn.addEventListener("mouseout", ()=>{
-     pp.style.display='none'
-})
+// vinn.addEventListener("mouseout", ()=>{
+//      pp.style.display='none'
+// })
 vinn.addEventListener("click", ()=>{
-     pp.style.display='none'
+     pp.style.display='flex'
 })
 
 const pror = document.querySelector(".propety")
