@@ -188,7 +188,7 @@ i, .text-prim, label {
 }
 @media (max-width:550px) {
      .container{
-          width: 80%;
+          width: 100%;
      }
 }
 
