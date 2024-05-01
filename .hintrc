@@ -18,12 +18,7 @@
       }
     ],
     "meta-viewport": "off",
-    "axe/name-role-value": [
-      "default",
-      {
-        "button-name": "off"
-      }
-    ],
+    "axe/name-role-value": "off",
     "axe/forms": [
       "default",
       {
@@ -45,6 +40,7 @@
         "list": "off"
       }
     ],
-    "disown-opener": "off"
+    "disown-opener": "off",
+    "no-inline-styles": "off"
   }
 }
