@@ -37,7 +37,7 @@ function show(){
           alert('Please enter a city name 😩');
      } else {
           function fetchWeather(city) {
-               const url = `http://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${Key}`;
+               const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${Key}`;
           
                fetch(url)
                .then(response => response.json())
