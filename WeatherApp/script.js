@@ -32,7 +32,7 @@ document.querySelector('.search').addEventListener('click',show)
 function show(){
      // City Name
      const cityValue = document.querySelector('.city').value;
-     let city = cityValue
+     
      if (cityValue.value === 0) {
           alert('Please enter a city name 😩');
      } else {
