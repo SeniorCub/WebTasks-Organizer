@@ -5,14 +5,16 @@
      box-sizing: border-box;
    }
 
-   
+   .calen{
+     margin-top: 50px;
+   }
    .calendar {
      margin: 0 auto;
      height: 30rem;
      width: max-content;
      background-color: #fff;
      border-radius: 25px;
-     overflow-x: hidden;
+     overflow: hidden;
      padding: 35px 50px 0px 50px;
    }
    
@@ -136,7 +138,7 @@
    .month-list {
      position: relative;
      left: 0;
-     top: -70px;
+     top: -250px;
      background-color: #ebebeb;
      color: #151426;
      display: grid;

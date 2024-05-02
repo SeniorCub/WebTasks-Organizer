@@ -144,12 +144,5 @@ const isLeapYear = (year) => {
        second: 'numeric',
      };
      const formateTimer = new Intl.DateTimeFormat('en-us', option).format(timer);
-     let time = `${`${timer.getHours()}`.padStart(
-         2,
-         '0'
-       )}:${`${timer.getMinutes()}`.padStart(
-         2,
-         '0'
-       )}: ${`${timer.getSeconds()}`.padStart(2, '0')}`;
      todayShowTime.textContent = formateTimer;
    }, 1000);
