@@ -2,7 +2,6 @@
      padding: 0;
      margin: 0;
      box-sizing: border-box;
-     /* color: #FEFEFA, #020F49, #FFB200, #333, #00000030, #fff, #fefefa28; */
 }
 body{
      background-color: #FFB200;
@@ -10,7 +9,6 @@ body{
 section{
     background-color: #fefefa28;
     width: 30%;
-    /* height: 70vh; */
     margin: auto;
     margin-top: 5%;
     padding: 20px;

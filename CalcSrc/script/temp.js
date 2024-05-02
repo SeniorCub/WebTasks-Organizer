@@ -12,5 +12,5 @@ const convert = document.querySelector('.convert').addEventListener('click', () 
           out.innerHTML = calFah
      } else {
           alert('Select a Unit to Convert to')
-     };
+     }
 })
