@@ -14,10 +14,13 @@ const bbbt = document.querySelector(".bbbt").addEventListener("click",profil)
 const chgps = document.querySelector(".chgpsd").addEventListener("click",chgpsd)
 // Close Button
 const close = document.querySelectorAll(".close")
-for (let i = 0; i < close.length; i++) {
-     close[i].addEventListener("click",closee)
+// for-of` loop instead of for loop
+// for (let i = 0; i < close.length; i++) {
+//      close[i].addEventListener("click",closee)
+// }
+for (let i of close) {
+     i.addEventListener("click",closee)
 }
-
 
 function signup() {
      const furm = document.querySelector("#form-page")

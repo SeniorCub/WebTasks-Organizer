@@ -17,9 +17,6 @@ section{
     border-radius: 10px;
     text-align: center;
 }
-.desicrip{
-     text-transform: capitalize;
-}
 .sss input{
      width: 70%;
      padding: 10px;
@@ -50,6 +47,7 @@ section{
      font-weight: 600;
 }
 .desicrip{
+     text-transform: capitalize;
      font-size: 25px;
      margin-top: 10px;
      font-weight: 800;
